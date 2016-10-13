@@ -5,7 +5,7 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="19628716692871"
+    timestamp="20465687338085"
     token="-8223279377837205565"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="19628716692871"
+        timestamp="20465687338085"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\outputs\apk\app-debug.apk"
