@@ -34,32 +34,23 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.common.api.CommonStatusCodes;
-
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import static android.R.attr.id;
 import static com.google.android.gms.common.api.Status.ss;
 import static com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity.barcode3;
 
-/**
- * Main activity demonstrating how to pass extra parameters to an activity that
- * reads barcodes.
- */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     // use a compound button so either checkbox or switch widgets work.
@@ -67,18 +58,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView vonalkodTextView, termekadatokTextView, termekmennyisegTextView, messageTextView;
     String barcode = "barcode";
 
-
     private static final int RC_BARCODE_CAPTURE = 9001;
     private static final String TAG = "BarcodeMain";
 
     String url, boltnev2;
     String boltnev, teruletnev = "Raktár";
 
-
     private String m_Text,m_Text2 = "";
     private String manualInput = "NO";
-
-    //View changeButton = findViewById(R.id.enter_mennyiseg);
 
     //Terület választó Spinner
     String teruletvalaszto[] = { "Raktár", "Csata Edit", "Csata Mária", "Kacsó Évi", "Sándor Zsuzsi", "Süle Ildikó", "Tamás Ildikó", "Zilahi Anita", "Összes üzlet" };
