@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Oct 13 15:52:12 CEST 2016
+#Thu Oct 13 17:34:51 CEST 2016
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 14.set=ANDROID_RESOURCE

@@ -49,7 +49,11 @@ import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Arrays;
 
+import static android.R.attr.id;
+import static com.google.android.gms.common.api.Status.ss;
 import static com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity.barcode3;
 
 /**
@@ -63,11 +67,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView vonalkodTextView, termekadatokTextView, termekmennyisegTextView, messageTextView;
     String barcode = "barcode";
 
+
     private static final int RC_BARCODE_CAPTURE = 9001;
     private static final String TAG = "BarcodeMain";
 
     String url, boltnev2;
     String boltnev, teruletnev = "Raktár";
+
 
     private String m_Text,m_Text2 = "";
     private String manualInput = "NO";
@@ -95,6 +101,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter<String> adapter;
     ArrayAdapter<String> adapter2;
 
+    ArrayList<String> barcodeList = new ArrayList<String>();
+    ArrayList<String> mennyisegList = new ArrayList<String>();
+    String barcodeArray[], mennyisegArray[];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,6 +125,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner2 = (Spinner) findViewById(R.id.bolt_spinner2);
         spinner2.setEnabled(false);
 
+        //ArrayList-ekből Array-ek:
+        barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
+        mennyisegArray = barcodeList.toArray(new String[barcodeList.size()]);
+
         View changeButton = findViewById(R.id.enter_mennyiseg);
         changeButton.setVisibility(View.GONE);
 
@@ -122,7 +136,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ArrayAdapter<String> spinnerArrayAdapterTerulet = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, teruletvalaszto);
         spinnerArrayAdapterTerulet.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
         spinner.setAdapter(spinnerArrayAdapterTerulet);
-
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapter, View v,
@@ -174,7 +187,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // TODO Auto-generated method stub
             }
         });
-
         spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapter, View v,
@@ -189,21 +201,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        /*
-        ArrayAdapter<String> spinnerArrayAdapterSpinnerSelection = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, spinnerSelection);
-        spinnerArrayAdapterOsszes.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
-
-        //spinner2.setAdapter(spinnerArrayAdapterSpinnerSelection);
-        //spinnerArrayAdapterSpinnerSelection.notifyDataSetChanged();
-*/
-
         findViewById(R.id.read_barcode).setOnClickListener(this);
         findViewById(R.id.enter_barcode).setOnClickListener(this);
         findViewById(R.id.enter_mennyiseg).setOnClickListener(this);
     }
 
 //eo onCreate
-
     void populateSpinner(){
         if(spinnerState == "raktar"){
             spinner2.setEnabled(false);
@@ -380,14 +383,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (requestCode == RC_BARCODE_CAPTURE) {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
-
                     String barcode3 = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     //Barcode barcode2 = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     //vonalkodTextView.setText(barcode2.displayValue);
-                    vonalkodTextView.setText(barcode3);
+
+                    Log.d(TAG,ss + barcode3);
                     getData();
-                    Log.d(TAG, "Vonalkód (MainActivity) " + barcode3);
-                } else {
+                    } else {
                     vonalkodTextView.setText(R.string.barcode_failure);
                     Log.d(TAG, "No barcode captured, intent data is null");
                 }
@@ -408,16 +410,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final TextView barcodeInfo = (TextView) findViewById(R.id.vonalkodTextView);
         String id = barcode3;
 
+        vonalkodTextView.setText(barcode3);
+
         if (manualInput.equals("YES")) {
             id = m_Text;
             manualInput = "NO";
         }
 
         try {
-
             String encodedString = URLEncoder.encode(boltnev,"UTF-8");
             boltnev2 = encodedString;
-            Log.d("TEST", encodedString);
+            Log.d("TEST","encodedString:" + encodedString);
             } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -463,6 +466,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        barcodeList.add(barcode3); //this adds an element to the list.
+        mennyisegList.add(ar);
+
 
         //Eredmények megjelenítése
         termekadatokTextView.setText(marka+"\n"+termek);
