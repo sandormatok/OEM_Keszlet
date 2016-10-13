@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.google.android.gms.oem.bolti.keszlet.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        android:text="Válassz területet és üzletet:"
+        android:layout_marginTop="4dp"
+        android:layout_height="30dp"
+        android:background="#b40027"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:id="@+id/bolt_spinner"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_blue_dark"
+        android:popupBackground="@android:color/holo_blue_dark"
+        android:layout_below="@+id/textView"
+        android:minWidth="@android:dimen/app_icon_size" />
+
+    <Spinner
+        android:id="@+id/bolt_spinner2"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_blue_dark"
+        android:popupBackground="@android:color/holo_blue_dark"
+        android:layout_below="@+id/bolt_spinner"
+        android:minWidth="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/barcode_header"
+        android:textSize="26sp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/bolt_spinner2"
+        android:id="@+id/status_message"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:minLines="2"
+        android:textSize="40sp"
+        android:id="@+id/barcode_value2"
+        android:layout_below="@+id/barcode_value"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/status_message"
+        android:layout_alignEnd="@+id/status_message"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/barcode_value"
+        android:minLines="4"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/status_message"
+        android:layout_alignEnd="@+id/status_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_flash"
+        android:id="@+id/use_flash"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/auto_focus"
+        android:layout_alignBottom="@+id/auto_focus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/enter_barcode"
+        android:id="@+id/enter_barcode"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/fakeView"
+        android:layout_marginLeft="2dp"
+        android:layout_toEndOf="@+id/fakeView" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_focus"
+        android:id="@+id/auto_focus"
+        android:checked="false"
+        android:layout_above="@+id/enter_mennyiseg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/enter_mennyiseg"
+        android:id="@+id/enter_mennyiseg"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_above="@+id/read_barcode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/read_barcode"
+        android:id="@+id/read_barcode"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/enter_barcode"
+        android:layout_toStartOf="@+id/enter_barcode" />
+
+
+</RelativeLayout>
