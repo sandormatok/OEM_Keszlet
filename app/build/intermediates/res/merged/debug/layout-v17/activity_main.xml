@@ -10,8 +10,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView"
-        android:text="Válassz területet:"
+        android:id="@+id/messageTextView"
+        android:text="Válassz boltcsoportot:"
         android:layout_marginTop="4dp"
         android:layout_height="30dp"
         android:background="#b40027"
@@ -30,12 +30,29 @@
         android:textAlignment="center"
         android:background="@android:color/holo_blue_dark"
         android:popupBackground="@android:color/holo_blue_dark"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/messageTextView"
         android:spinnerMode="dropdown"
         android:textStyle="normal|bold"
         android:minWidth="@android:dimen/app_icon_size"
         android:layout_toLeftOf="@+id/fakeView"
         android:layout_toStartOf="@+id/fakeView" />
+
+    <Spinner
+        android:id="@+id/bolt_spinner2"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:popupBackground="@android:color/holo_blue_dark"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="2dp"
+        android:minWidth="@android:dimen/app_icon_size"
+        android:layout_alignTop="@+id/bolt_spinner"
+        android:layout_toRightOf="@+id/bolt_spinner"
+        android:layout_toEndOf="@+id/bolt_spinner" />
+
 
     <TextView
         android:layout_width="match_parent"
@@ -45,7 +62,7 @@
         android:textSize="26sp"
         android:layout_marginTop="25dp"
         android:layout_below="@+id/bolt_spinner2"
-        android:id="@+id/status_message"
+        android:id="@+id/vonalkodTextView"
         android:layout_alignParentEnd="true"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
@@ -55,14 +72,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:minLines="2"
+        android:minLines="1"
         android:textSize="40sp"
-        android:id="@+id/barcode_value2"
-        android:layout_below="@+id/barcode_value"
+        android:id="@+id/termekmennyisegTextView"
+        android:layout_below="@+id/termekadatokTextView"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignRight="@+id/status_message"
-        android:layout_alignEnd="@+id/status_message"
+        android:layout_alignRight="@+id/vonalkodTextView"
+        android:layout_alignEnd="@+id/vonalkodTextView"
         android:textAlignment="center"
         android:textStyle="normal|bold"
         android:textColor="@android:color/holo_blue_bright" />
@@ -71,12 +88,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/barcode_value"
+        android:id="@+id/termekadatokTextView"
         android:minLines="4"
         android:textSize="24sp"
         android:textAlignment="center"
-        android:layout_below="@+id/status_message"
-        android:layout_alignEnd="@+id/status_message"
+        android:layout_below="@+id/vonalkodTextView"
+        android:layout_alignEnd="@+id/vonalkodTextView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textColor="@android:color/holo_blue_dark" />
@@ -115,21 +132,6 @@
         android:layout_toLeftOf="@+id/enter_barcode"
         android:layout_toStartOf="@+id/enter_barcode" />
 
-    <Spinner
-        android:id="@+id/bolt_spinner2"
-        android:layout_width="fill_parent"
-        android:textSize="20sp"
-        android:layout_height="50dp"
-        android:background="@android:color/holo_blue_dark"
-        android:popupBackground="@android:color/holo_blue_dark"
-        android:spinnerMode="dropdown"
-        android:textAlignment="center"
-        android:textStyle="normal|bold"
-        android:layout_marginLeft="2dp"
-        android:minWidth="@android:dimen/app_icon_size"
-        android:layout_alignTop="@+id/bolt_spinner"
-        android:layout_toRightOf="@+id/bolt_spinner"
-        android:layout_toEndOf="@+id/bolt_spinner" />
 
 
     <Button

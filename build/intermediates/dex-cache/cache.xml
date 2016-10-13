@@ -46,6 +46,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_2e1ac726cc0f7f65a0f8243d5964bd2e0553fe69\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_4ffcc007d3a3041ea12822a99c2634065c436a6e.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
@@ -71,15 +80,6 @@
         revision="24.0.1"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_2de10a24c6661f8711ca7bd1c8bb0d3d8cf54503\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_4ffcc007d3a3041ea12822a99c2634065c436a6e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -311,21 +311,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_7d04fce8b863f1eb31e9405cda06717560f281e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_6d4d1ed0d40719d0d7d043f46f665756e018359e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_7d04fce8b863f1eb31e9405cda06717560f281e9.jar" />
     </item>
     <item
         is-multidex="true"
@@ -355,6 +355,24 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_ecdd5794637a1bfb78aaf63f000afdefcbaa12ff\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="T:\APPDATA\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_89823fa1c5edeec87a95346a3c334373f0b3b85e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="403d9af48608203aa5524a1ba31d23458ba4cfcf">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de.jar" />
+    </item>
+    <item
         jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -370,15 +388,6 @@
         revision="24.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_89823fa1c5edeec87a95346a3c334373f0b3b85e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9f2744079343aaa072eb09a6ed906805e39cd28c">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -462,13 +471,13 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_dd2008fab94bb011a61e319589c259b079d8731a\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="34b87b670220057e76144a213eaf6adbd8ecdd98">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60\classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_f9434c3f05653df8d7db1a3778e573334a354943.jar" />
     </item>
     <item
         is-multidex="true"
@@ -505,15 +514,6 @@
         revision="24.0.1"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_3331f7b6214c7b42b5a8de573c1eae0383652d93\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_f9434c3f05653df8d7db1a3778e573334a354943\classes.dex" />
     </item>
     <item
         jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
@@ -668,21 +668,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_472aa2bee2f5d78bfd26b85ebf8749e057c5f981\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_c160a5a7ad30f78c202117113d1100dc7e38bbe5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_472aa2bee2f5d78bfd26b85ebf8749e057c5f981.jar" />
     </item>
     <item
         is-multidex="true"
@@ -694,13 +694,13 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_2bc9b5a8b506aeae7f1ce4dc63e959a212eaf500\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_9514e97b6c897058d73b5d929065e3f73061523a\classes.dex" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_a010bf2ed28baa05aa0dbadc25c0c7fda301d226.jar" />
     </item>
     <item
         is-multidex="true"
@@ -727,15 +727,6 @@
         revision="24.0.1"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_70f817e0b1d493130a506c905bbcf78a3defad53\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_a010bf2ed28baa05aa0dbadc25c0c7fda301d226\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -809,6 +800,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3b8c12a758e22bfcafdab15d2817296596a763e1\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_9514e97b6c897058d73b5d929065e3f73061523a.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
@@ -863,6 +863,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_624e210f91187514d88f53356c77835bcb41aa6c\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5197e1e61609def842f354f68ad9953f4fe0e680">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
         jumboMode="true"
@@ -870,15 +879,6 @@
         revision="24.0.1"
         sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_7910002b59b3ab75eff76ebea3be9741141daa05\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_37070785f881388df8d3cd47ceb382130781d3f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -900,15 +900,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_6c1cd8f83d06dd37e9217641c454804bbbe48a9d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -926,13 +917,13 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0bc7cecf47eee40c870a3732b63ef53f5c01ddfa\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_670c4c4054ab0236cb376289ae751e1d05b60ab8\classes.dex" />
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_6c1cd8f83d06dd37e9217641c454804bbbe48a9d.jar" />
     </item>
     <item
         is-multidex="true"
@@ -951,6 +942,15 @@
         revision="24.0.1"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_1a9ac9e937ef7f972137c095f5b492dc30a36702\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_670c4c4054ab0236cb376289ae751e1d05b60ab8.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1008,15 +1008,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_57c14d3f5b7a017012f4514a6ad99f93f20ddc3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -1059,6 +1050,15 @@
         revision="24.0.1"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_e323d75dcf702b747e99f3623101e2d2009acd87\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_57c14d3f5b7a017012f4514a6ad99f93f20ddc3e.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1337,6 +1337,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_47d9e8ef6bf32f6520e49bd320d54732c2e13db9\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_797bb98832141ac6c3cfc2577f04d54c275528cb.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
@@ -1356,21 +1365,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_797bb98832141ac6c3cfc2577f04d54c275528cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7bb37c136d616b42cde701e6bf0290ed1120c1d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_37070785f881388df8d3cd47ceb382130781d3f8.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1425,6 +1434,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_85e58f0ee5127764f608f4bcabdcf931b0c2dccb\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.mcxiaoke.volley-library-aar-1.0.0_a061feb69863b7896963f3a62d467feaf9bae9ba.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
@@ -1440,6 +1458,15 @@
         revision="24.0.1"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
         <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8d4db79b8d9725db72b3c38daaf7522bfa0d2452\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_59c02799f31293e5484a5ba3eaefb1572c73cd57.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1458,15 +1485,6 @@
         revision="24.0.1"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ababd55f6402cc722d39e7c1afc0035213859e91\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_a061feb69863b7896963f3a62d467feaf9bae9ba\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1523,13 +1541,13 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bdab81b91e8492182966459ac80c9a7439c0b309\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_59c02799f31293e5484a5ba3eaefb1572c73cd57\classes.dex" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_77599d88996e14d51c25590435459baedc3bb74c.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1539,15 +1557,6 @@
         revision="24.0.1"
         sha1="148bac452064db3863a849b9e4c75c11cb1b8e0d">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_07aa6bbc9970f454fa1be771f8253bc3095c94bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_77599d88996e14d51c25590435459baedc3bb74c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1595,39 +1604,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_5b2825d6b776352f50d1ca1fdd6862ae8b20fb09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_ca10f87ce8d48c9a6618b629ff668900c5018b16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_e6c90c401529ca5e227c20743f7881900ecf7bb6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d9fa3cca955dea992c117b9be506f1a4fdbea855\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1639,13 +1621,22 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_f801fa5107af5bb898aeaa3024e2961dd90351e9\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6ae549e4367ba0a055af86f4866ef9e28cd5b2de\classes.dex" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_5b2825d6b776352f50d1ca1fdd6862ae8b20fb09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_a0f8bc279b31bc5bae1886edf943e82ae1b25df1.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1657,6 +1648,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_d492db3bc99f41a53a3cd41924d9b1cb761d328f\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_0627924fdb73b14a7391fb7646c4cefe387f6563.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
@@ -1666,13 +1666,13 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_225c3814398f31919e4cc7c1fb9d3149b8aabff3\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_0627924fdb73b14a7391fb7646c4cefe387f6563\classes.dex" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6ae549e4367ba0a055af86f4866ef9e28cd5b2de.jar" />
     </item>
     <item
         is-multidex="true"
@@ -1693,6 +1693,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_bb10e1795b37050d3e042c3886f64bdb3bd04384\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_d9fa3cca955dea992c117b9be506f1a4fdbea855.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
@@ -1700,15 +1709,6 @@
         revision="24.0.1"
         sha1="6de633b30e1e8f862248fd5435954243ba1e7a6b">
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d983187105511378d007ee0ee38eef7eab7c78c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_a0f8bc279b31bc5bae1886edf943e82ae1b25df1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1789,6 +1789,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_2f3c4cb29c46029e15a0fb73ac4da68a652dd519\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_ca10f87ce8d48c9a6618b629ff668900c5018b16.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
@@ -1807,6 +1816,15 @@
         <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_c292d1d59dfab2fd3e6520845191ff1ca305024f\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_de92442ba0adb903c1a57a3e0f37462b0c88a73b.jar" />
+    </item>
+    <item
         jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -1822,15 +1840,6 @@
         revision="24.0.1"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
         <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_7de4bd92389eb7c73b3512d1af5a16c4a517add9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_de92442ba0adb903c1a57a3e0f37462b0c88a73b\classes.dex" />
     </item>
     <item
         is-multidex="true"

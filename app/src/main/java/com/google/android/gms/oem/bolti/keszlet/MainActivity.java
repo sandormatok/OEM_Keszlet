@@ -50,7 +50,6 @@ import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-import static android.R.attr.button;
 import static com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity.barcode3;
 
 /**
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     // use a compound button so either checkbox or switch widgets work.
     private CompoundButton autoFocus, useFlash;
-    private TextView vonalkodTextview, barcodeValue, barcodeValue2, messageTextview;
+    private TextView vonalkodTextView, termekadatokTextView, termekmennyisegTextView, messageTextView;
     String barcode = "barcode";
 
     private static final int RC_BARCODE_CAPTURE = 9001;
@@ -103,10 +102,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
 
-        vonalkodTextview = (TextView)findViewById(R.id.status_message);
-        messageTextview = (TextView)findViewById(R.id.textView);
-        barcodeValue = (TextView)findViewById(R.id.barcode_value);
-        barcodeValue2 = (TextView)findViewById(R.id.barcode_value2);
+        vonalkodTextView = (TextView)findViewById(R.id.vonalkodTextView);
+        messageTextView = (TextView)findViewById(R.id.messageTextView);
+        termekadatokTextView = (TextView)findViewById(R.id.termekadatokTextView);
+        termekmennyisegTextView = (TextView)findViewById(R.id.termekmennyisegTextView);
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.use_flash);
@@ -182,7 +181,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                        int position, long id) {
                 //teruletnev = adapter.getItemAtPosition(position).toString();
                 boltnev = adapter.getItemAtPosition(position).toString();
-                //messageTextview.setText("Nyomj meg alul egy gombot!");
+                //messageTextView.setText("Nyomj meg alul egy gombot!");
                             }
            @Override
             public void onNothingSelected(AdapterView<?> arg0) {
@@ -203,6 +202,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.enter_mennyiseg).setOnClickListener(this);
     }
 
+//eo onCreate
+
     void populateSpinner(){
         if(spinnerState == "raktar"){
             spinner2.setEnabled(false);
@@ -213,7 +214,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "csataedit"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, csataedit);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -221,7 +222,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "csatamaria"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, csatamaria);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -229,7 +230,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "kacsoevi"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, kacsoevi);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -237,7 +238,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "sandorzsuzsi"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sandorzsuzsi);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -245,7 +246,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "suleildi"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, suleildi);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -253,7 +254,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "tamasildiko"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, tamasildiko);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -261,7 +262,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "zilahianita"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, zilahianita);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -269,7 +270,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(spinnerState == "osszesbolt"){
             spinner2.setEnabled(true);
-            messageTextview.setText("Válassz üzletet:");
+            messageTextView.setText("Válassz üzletet:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, osszesbolt);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -370,6 +371,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * @see #createPendingResult
      * @see #setResult(int)
      */
+
+// onResult
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         View changeButton = findViewById(R.id.enter_mennyiseg);
@@ -380,16 +383,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     String barcode3 = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     //Barcode barcode2 = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
-                    //vonalkodTextview.setText(barcode2.displayValue);
-                    vonalkodTextview.setText(barcode3);
+                    //vonalkodTextView.setText(barcode2.displayValue);
+                    vonalkodTextView.setText(barcode3);
                     getData();
                     Log.d(TAG, "Vonalkód (MainActivity) " + barcode3);
                 } else {
-                    vonalkodTextview.setText(R.string.barcode_failure);
+                    vonalkodTextView.setText(R.string.barcode_failure);
                     Log.d(TAG, "No barcode captured, intent data is null");
                 }
             } else {
-                vonalkodTextview.setText(String.format(getString(R.string.barcode_error),
+                vonalkodTextView.setText(String.format(getString(R.string.barcode_error),
                         CommonStatusCodes.getStatusCodeString(resultCode)));
             }
         }
@@ -399,10 +402,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    // URL BEKÜLDÉSE, JSON FOGADÁSA
+//Stringrequest (url), Response
     private void getData() {
         //final TextView barcodeInfo = (TextView) findViewById(R.id.code_info);
-        final TextView barcodeInfo = (TextView) findViewById(R.id.status_message);
+        final TextView barcodeInfo = (TextView) findViewById(R.id.vonalkodTextView);
         String id = barcode3;
 
         if (manualInput.equals("YES")) {
@@ -419,14 +422,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             e.printStackTrace();
         }
 
-        //URL KÉRÉS FELÉPÍTÉSE
+        //StringRequest felépítése
         String url = Config.DATA_URL+id+"&bkod="+boltnev2;
 
         if (boltnev.equals("Raktár")) {
             url = Config.DATA_RAKTAR_URL+id;
         }
 
-        //URL KÉRÉS ELKÜLDÉSE
+        //StringRequest
         StringRequest stringRequest = new StringRequest(url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -445,7 +448,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         barcodeInfo.setText(id);
     }
 
-    //FOGADOTT JSON FELDOLGOZÁSA, ADATOK MEGJELENÍTÉSE
+    //JSON feldolgozása, eredmények megjelenítése
     private void showJSON(String response){
         String marka="";
         String termek="";
@@ -461,9 +464,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             e.printStackTrace();
         }
 
-        //Adtok megjelenítése
-        barcodeValue.setText(marka+"\n"+termek);
-        barcodeValue2.setText(boltnev+"\n"+ar+"db");
+        //Eredmények megjelenítése
+        termekadatokTextView.setText(marka+"\n"+termek);
+        termekmennyisegTextView.setText(boltnev+"\n"+ar+"db");
     }
-
 }

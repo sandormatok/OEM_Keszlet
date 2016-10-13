@@ -2729,11 +2729,9 @@ containing a value of this type.
         public static final int always=0x7f0d0038;
         public static final int auto=0x7f0d0021;
         public static final int auto_focus=0x7f0d007d;
-        public static final int barcode_value=0x7f0d0079;
-        public static final int barcode_value2=0x7f0d0078;
         public static final int beginning=0x7f0d0034;
-        public static final int bolt_spinner=0x7f0d0076;
-        public static final int bolt_spinner2=0x7f0d0075;
+        public static final int bolt_spinner=0x7f0d0075;
+        public static final int bolt_spinner2=0x7f0d0077;
         public static final int bottom=0x7f0d0022;
         public static final int buttonPanel=0x7f0d004e;
         public static final int cancel_action=0x7f0d008e;
@@ -2767,7 +2765,7 @@ containing a value of this type.
         public static final int exitUntilCollapsed=0x7f0d0017;
         public static final int expand_activities_button=0x7f0d0048;
         public static final int expanded_menu=0x7f0d005b;
-        public static final int fakeView=0x7f0d007a;
+        public static final int fakeView=0x7f0d0076;
         public static final int fill=0x7f0d0030;
         public static final int fill_horizontal=0x7f0d0031;
         public static final int fill_vertical=0x7f0d0027;
@@ -2788,6 +2786,7 @@ containing a value of this type.
         public static final int listMode=0x7f0d000b;
         public static final int list_item=0x7f0d004b;
         public static final int media_actions=0x7f0d0090;
+        public static final int messageTextView=0x7f0d0074;
         public static final int middle=0x7f0d0035;
         public static final int mini=0x7f0d0033;
         public static final int multiply=0x7f0d001b;
@@ -2836,14 +2835,14 @@ containing a value of this type.
         public static final int standard=0x7f0d003e;
         public static final int start=0x7f0d002a;
         public static final int status_bar_latest_event_content=0x7f0d008f;
-        public static final int status_message=0x7f0d0077;
         public static final int submenuarrow=0x7f0d005f;
         public static final int submit_area=0x7f0d0070;
         public static final int tabMode=0x7f0d000d;
+        public static final int termekadatokTextView=0x7f0d0079;
+        public static final int termekmennyisegTextView=0x7f0d007a;
         public static final int text=0x7f0d0097;
         public static final int text2=0x7f0d0095;
         public static final int textSpacerNoButtons=0x7f0d0057;
-        public static final int textView=0x7f0d0074;
         public static final int text_input_password_toggle=0x7f0d008c;
         public static final int time=0x7f0d0093;
         public static final int title=0x7f0d004d;
@@ -2856,6 +2855,7 @@ containing a value of this type.
         public static final int useLogo=0x7f0d0014;
         public static final int use_flash=0x7f0d007f;
         public static final int view_offset_helper=0x7f0d000a;
+        public static final int vonalkodTextView=0x7f0d0078;
         public static final int wide=0x7f0d003f;
         public static final int withText=0x7f0d003c;
         public static final int wrap_content=0x7f0d0020;

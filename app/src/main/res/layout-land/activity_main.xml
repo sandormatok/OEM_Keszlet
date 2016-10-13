@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/barcode_header"
-        android:id="@+id/status_message"
+        android:id="@+id/vonalkodTextView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true" />
@@ -24,13 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/barcode_value"
-        android:layout_below="@+id/status_message"
+        android:id="@+id/termekadatokTextView"
+        android:layout_below="@+id/vonalkodTextView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="110dp"
-        android:layout_alignRight="@+id/status_message"
-        android:layout_alignEnd="@+id/status_message" />
+        android:layout_alignRight="@+id/vonalkodTextView"
+        android:layout_alignEnd="@+id/vonalkodTextView" />
 
     <Button
         android:layout_width="wrap_content"
@@ -57,8 +57,8 @@
         android:text="@string/use_flash"
         android:id="@+id/use_flash"
         android:layout_alignTop="@+id/auto_focus"
-        android:layout_alignRight="@+id/barcode_value"
-        android:layout_alignEnd="@+id/barcode_value"
+        android:layout_alignRight="@+id/termekadatokTextView"
+        android:layout_alignEnd="@+id/termekadatokTextView"
         android:checked="false" />
 
 </RelativeLayout>
