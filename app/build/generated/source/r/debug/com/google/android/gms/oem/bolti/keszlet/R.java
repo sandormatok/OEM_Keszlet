@@ -2728,12 +2728,12 @@ containing a value of this type.
         public static final int all=0x7f0d0032;
         public static final int always=0x7f0d0038;
         public static final int auto=0x7f0d0021;
-        public static final int auto_focus=0x7f0d007f;
+        public static final int auto_focus=0x7f0d007d;
         public static final int barcode_value=0x7f0d0079;
         public static final int barcode_value2=0x7f0d0078;
         public static final int beginning=0x7f0d0034;
-        public static final int bolt_spinner=0x7f0d0075;
-        public static final int bolt_spinner2=0x7f0d0076;
+        public static final int bolt_spinner=0x7f0d0076;
+        public static final int bolt_spinner2=0x7f0d0075;
         public static final int bottom=0x7f0d0022;
         public static final int buttonPanel=0x7f0d004e;
         public static final int cancel_action=0x7f0d008e;
@@ -2854,7 +2854,7 @@ containing a value of this type.
         public static final int touch_outside=0x7f0d0083;
         public static final int up=0x7f0d0009;
         public static final int useLogo=0x7f0d0014;
-        public static final int use_flash=0x7f0d007d;
+        public static final int use_flash=0x7f0d007f;
         public static final int view_offset_helper=0x7f0d000a;
         public static final int wide=0x7f0d003f;
         public static final int withText=0x7f0d003c;
@@ -3006,8 +3006,9 @@ containing a value of this type.
         public static final int search_menu_title=0x7f070027;
         public static final int spinner_prompt=0x7f070048;
         public static final int status_bar_notification_info_overflow=0x7f070028;
-        public static final int title_activity_main=0x7f070049;
-        public static final int use_flash=0x7f07004a;
+        public static final int status_message=0x7f070049;
+        public static final int title_activity_main=0x7f07004a;
+        public static final int use_flash=0x7f07004b;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09008c;

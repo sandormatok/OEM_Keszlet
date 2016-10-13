@@ -722,12 +722,12 @@ int id alertTitle 0x7f0d0053
 int id all 0x7f0d0032
 int id always 0x7f0d0038
 int id auto 0x7f0d0021
-int id auto_focus 0x7f0d007f
+int id auto_focus 0x7f0d007d
 int id barcode_value 0x7f0d0079
 int id barcode_value2 0x7f0d0078
 int id beginning 0x7f0d0034
-int id bolt_spinner 0x7f0d0075
-int id bolt_spinner2 0x7f0d0076
+int id bolt_spinner 0x7f0d0076
+int id bolt_spinner2 0x7f0d0075
 int id bottom 0x7f0d0022
 int id buttonPanel 0x7f0d004e
 int id cancel_action 0x7f0d008e
@@ -848,7 +848,7 @@ int id topPanel 0x7f0d0051
 int id touch_outside 0x7f0d0083
 int id up 0x7f0d0009
 int id useLogo 0x7f0d0014
-int id use_flash 0x7f0d007d
+int id use_flash 0x7f0d007f
 int id view_offset_helper 0x7f0d000a
 int id wide 0x7f0d003f
 int id withText 0x7f0d003c
@@ -990,8 +990,9 @@ int string results_termek 0x7f070047
 int string search_menu_title 0x7f070027
 int string spinner_prompt 0x7f070048
 int string status_bar_notification_info_overflow 0x7f070028
-int string title_activity_main 0x7f070049
-int string use_flash 0x7f07004a
+int string status_message 0x7f070049
+int string title_activity_main 0x7f07004a
+int string use_flash 0x7f07004b
 int style AlertDialog_AppCompat 0x7f09008c
 int style AlertDialog_AppCompat_Light 0x7f09008d
 int style Animation_AppCompat_Dialog 0x7f09008e

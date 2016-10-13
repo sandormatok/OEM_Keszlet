@@ -611,6 +611,7 @@
     <string name="search_menu_title">Search</string>
     <string name="spinner_prompt">Válassz területet és üzletet:</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_message">Válassz területet és üzletet:</string>
     <string name="title_activity_main">OEM Bolti Készlet</string>
     <string name="use_flash">Vaku</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
