@@ -56,6 +56,10 @@
         "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\src\\main\\res\\layout\\barcode_capture.xml"
     },
     {
+        "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multi_item_textview.xml",
+        "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\src\\main\\res\\layout\\multi_item_textview.xml"
+    },
+    {
         "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },

@@ -14,7 +14,7 @@
         android:text="Válassz boltcsoportot:"
         android:layout_marginTop="4dp"
         android:layout_height="30dp"
-        android:background="#b40027"
+        android:background="#373638"
         android:textAlignment="center"
         android:textSize="20sp"
         android:layout_alignParentRight="true"
@@ -26,10 +26,11 @@
         android:textSize="20sp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
         android:layout_marginRight="2dp"
         android:textAlignment="center"
-        android:background="@android:color/holo_blue_dark"
-        android:popupBackground="@android:color/holo_blue_dark"
+        android:background="?attr/colorButtonNormal"
+        android:popupBackground="?attr/colorButtonNormal"
         android:layout_below="@+id/vonalkodTextView"
         android:spinnerMode="dropdown"
         android:textStyle="normal|bold"
@@ -42,12 +43,15 @@
         android:layout_width="fill_parent"
         android:textSize="20sp"
         android:layout_height="50dp"
-        android:background="@android:color/holo_blue_dark"
-        android:popupBackground="@android:color/holo_blue_dark"
+        android:background="?attr/colorButtonNormal"
+        android:popupBackground="?attr/colorButtonNormal"
         android:spinnerMode="dropdown"
         android:textAlignment="center"
         android:textStyle="normal|bold"
+
         android:layout_marginLeft="2dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
         android:minWidth="@android:dimen/app_icon_size"
         android:layout_alignTop="@+id/bolt_spinner"
         android:layout_toRightOf="@+id/bolt_spinner"
@@ -67,7 +71,7 @@
         android:layout_alignEnd="@+id/vonalkodTextView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
 
     <View android:id="@+id/fakeView"
         android:layout_width="0dp"
@@ -95,31 +99,15 @@
         android:textSize="20sp"
         android:textColor="@android:color/background_light"
         android:textStyle="normal|bold"
-        android:background="@android:color/holo_blue_dark"
+        android:background="?attr/colorButtonNormal"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/enter_barcode"
         android:layout_toStartOf="@+id/enter_barcode" />
-
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="@string/enter_mennyiseg"
-        android:id="@+id/enter_mennyiseg"
-        android:textSize="16sp"
-        android:textColor="@android:color/background_light"
-        android:textStyle="normal|bold"
-        android:background="@android:color/holo_blue_dark"
-        android:layout_above="@+id/read_barcode"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="4dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -129,13 +117,14 @@
         android:textSize="20sp"
         android:textColor="@android:color/background_light"
         android:textStyle="normal|bold"
-        android:background="@android:color/holo_blue_dark"
+        android:background="?attr/colorButtonNormal"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_toRightOf="@+id/fakeView"
         android:layout_marginLeft="2dp"
-        android:layout_marginRight="0dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_toEndOf="@+id/fakeView" />
 
     <TextView
@@ -172,6 +161,16 @@
         android:layout_toRightOf="@+id/auto_focus"
         android:layout_toEndOf="@+id/auto_focus" />
 
+    <ListView
+        android:id="@+id/itemListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/bolt_spinner"
+        android:layout_above="@+id/use_flash">
+    </ListView>
+
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -180,16 +179,21 @@
         android:checked="false"
         android:layout_above="@+id/enter_mennyiseg"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ListView
-        android:id="@+id/itemListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_above="@+id/enter_mennyiseg"
-        android:layout_below="@+id/bolt_spinner">
-    </ListView>
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="60dp"
+        android:text="@string/enter_mennyiseg"
+        android:id="@+id/enter_mennyiseg"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+        android:background="?attr/colorButtonNormal"
+        android:layout_above="@+id/read_barcode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

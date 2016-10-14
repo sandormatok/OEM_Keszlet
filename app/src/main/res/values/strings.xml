@@ -20,4 +20,12 @@
     <string name="results_ar">\nKészlet:\t</string>
     <string name="boltok_prompt">Válassz boltot!</string>
     <string name="spinner_prompt">Válassz területet és üzletet:</string>
+    <string name="termeknevEditTextString">Terméknév</string>
+    <string name="mennyisegEditTextString">#</string>
+    <string name="torlesImageButtonString">Törlés</string>
+
+
+    termeknevEditTextString
+    mennyisegEditTextString
+    torlesImageButtonString
 </resources>

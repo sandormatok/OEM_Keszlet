@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/termeknevEditText"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:hint="@string/termeknevEditTextString"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/mennyisegEditText"
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:text="@string/mennyisegEditTextString"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/torlesImageButton"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/torlesImageButtonString"
+        android:onClick="removeAtomPayOnClickHandler"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_height="wrap_content" />
+</LinearLayout>

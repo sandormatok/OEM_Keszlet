@@ -509,7 +509,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         barcodeList.add(barcode3);
         mennyisegList.add(ar);
         termekList.add(termek);
-        mergedList.add(barcode3+", "+termek+", "+ar+"db");
+        mergedList.add(termek+", "+ar+"db");
 
         //ArrayList-ekből Array-ek:
         barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
