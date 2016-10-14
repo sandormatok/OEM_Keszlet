@@ -599,7 +599,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="enter_barcode">BEÍRÁS</string>
-    <string name="enter_mennyiseg">Valós mennyiség visszaküldése</string>
+    <string name="enter_mennyiseg">Mennyiség javítása</string>
     <string name="low_storage_error">Az arcfelismerő nem tölthető le, mert kevés a hely!</string>
     <string name="mennyisegEditTextString">#</string>
     <string name="no_camera_permission">Ez az app nem tud elindulni ezen a készüléken. Kamera jogosultságra van szükség!</string>
@@ -617,6 +617,7 @@
     <string name="title_activity_main">OEM Bolti Készlet</string>
     <string name="torlesImageButtonString">Törlés</string>
     <string name="use_flash">Vaku</string>
+    <string name="vissza">Vissza</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

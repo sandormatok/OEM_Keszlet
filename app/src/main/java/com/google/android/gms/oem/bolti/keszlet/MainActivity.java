@@ -16,13 +16,17 @@
 
 package com.google.android.gms.oem.bolti.keszlet;
 
+import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.TelephonyManager;
 import android.text.InputType;
 import android.util.Log;
 import android.view.Gravity;
@@ -52,8 +56,9 @@ import java.util.Arrays;
 import static android.R.attr.id;
 import static com.google.android.gms.common.api.Status.ss;
 import static com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity.barcode3;
+import static com.google.android.gms.oem.bolti.keszlet.R.id.itemListView;
 
-//
+//begin
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     // use a compound button so either checkbox or switch widgets work.
@@ -66,6 +71,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     String url, boltnev2;
     String boltnev, teruletnev = "Raktár";
+
+    String deviceID, itemViewList;
+    Integer itemPosition;
 
     private String m_Text,m_Text2 = "";
     private String manualInput = "NO";
@@ -91,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter<String> adapter;
     ArrayAdapter<String> adapter2;
 
-       //ListView array-ek
+    //ListView array-ek
     ArrayList<String> barcodeList = new ArrayList<String>();
     ArrayList<String> termekList = new ArrayList<String>();
     ArrayList<String> mennyisegList = new ArrayList<String>();
@@ -114,6 +122,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
 
+        //getActionBar().setDisplayHomeAsUpEnabled(true);
+
         vonalkodTextView = (TextView)findViewById(R.id.vonalkodTextView);
         messageTextView = (TextView)findViewById(R.id.messageTextView);
         termekadatokTextView = (TextView)findViewById(R.id.termekadatokTextView);
@@ -127,30 +137,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner2 = (Spinner) findViewById(R.id.bolt_spinner2);
         spinner2.setEnabled(false);
 
-
-        //Tömbök feltöltése
-
- /*
-        barcodeList.add("BARCODE");
-        mennyisegList.add("AR");
-        termekList.add("TERMEKNEV'");
-        mergedList.add(barcodeList+","+mennyisegList+","+termekList);
- */
-
         //ArrayList-ekből Array-ek:
         barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
         mennyisegArray = mennyisegList.toArray(new String[mennyisegList.size()]);
         termekArray = mennyisegList.toArray(new String[mennyisegList.size()]);
         mergedArray = mergedList.toArray(new String[mennyisegList.size()]);
 
+/* IMEI - még nem jó!
+        TelephonyManager telephonyManager = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
+        deviceID = telephonyManager.getDeviceId();
 
-
-        //listViewAdapter
-/*        ListView itemsListView = (ListView) findViewById(R.id.itemListView);
-        ArrayAdapter<String> listViewAdapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mergedArray);
-        itemsListView.setAdapter(listViewAdapter);
+        //Toast toast= Toast.makeText(getApplicationContext(),"IMEI: "+deviceID, Toast.LENGTH_LONG);
+        //toast.setGravity(Gravity.CENTER,0,0); toast.show();
 */
+
         //Mennyiség gomb kezdeti elrejtése
         View changeButton = findViewById(R.id.enter_mennyiseg);
         changeButton.setVisibility(View.GONE);
@@ -227,6 +227,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.read_barcode).setOnClickListener(this);
         findViewById(R.id.enter_barcode).setOnClickListener(this);
         findViewById(R.id.enter_mennyiseg).setOnClickListener(this);
+
+        //Hosszú klikk - nem jó
+        //findViewById(R.id.read_barcode).setOnLongClickListener(this);
     }
 
 //eo onCreate
@@ -308,7 +311,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      *
      * @param v The view that was clicked.
      */
+
+        /*
+    Hosszú klikk - nem jó
     @Override
+
+
+   public void onLongClick(View v) {
+        Toast toast= Toast.makeText(getApplicationContext(),"LONG CLICK", Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.CENTER,0,0); toast.show();
+        return true;
+    }*/
+
     public void onClick(View v) {
         //VONALKÓD OLVASÓ MEGHÍVASA
         if (v.getId() == R.id.read_barcode) {
@@ -343,8 +357,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 });
                 builder.show();
-
         }
+
         //MENNYISÉG JAVÍTÁSA KÉZZEL
         if (v.getId() == R.id.enter_mennyiseg) {
             AlertDialog.Builder builder2 = new AlertDialog.Builder(this);
@@ -494,7 +508,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner.setVisibility(View.GONE);
         spinner2.setVisibility(View.GONE);
 
-
         //vonalkód textview megjelenítése
         //View vvonalkodTextView = findViewById(R.id.vonalkodTextView);
         //vvonalkodTextView.setVisibility(View.VISIBLE);
@@ -517,13 +530,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         termekArray = mennyisegList.toArray(new String[mennyisegList.size()]);
         mergedArray = mergedList.toArray(new String[mennyisegList.size()]);
 
-        ListView itemsListView = (ListView) findViewById(R.id.itemListView);
+        ListView itemsListView = (ListView) findViewById(itemListView);
         ArrayAdapter<String> listViewAdapter =
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mergedArray);
         itemsListView.setAdapter(listViewAdapter);
+        //itemViewList = boltnev;
+
+        itemsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position,
+                                    long id) {
+                String item = ((TextView)view).getText().toString();
+                itemViewList = item;
+                itemPosition  = position;
+                //messageTextView.setText(itemViewList);
+                //Toast.makeText(getBaseContext(), item, Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(view.getContext(),DetailsActivity.class);
+                intent.putExtra("positionExtra",position);
+                intent.putExtra("itemExtra",itemViewList);
+                startActivity(intent);
+            }
+        });
 
         messageTextView = (TextView)findViewById(R.id.messageTextView);
-        messageTextView.setBackgroundColor(Color.parseColor("#ff0099cc"));
-        messageTextView.setText(boltnev);
+        messageTextView.setText("Válassz ki egy tételt:");
+        //messageTextView.setVisibility(View.GONE);
+        //messageTextView.setBackgroundColor(Color.parseColor("#ff0099cc"));
+
     }
 }

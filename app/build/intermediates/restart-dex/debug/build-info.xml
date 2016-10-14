@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="93148047982443"
+    timestamp="117669490004817"
     token="-8223279377837205565"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="731" />
+        duration="581" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="75" />
+        duration="28" />
     <task
         name="verifier"
-        duration="23" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="93148047982443"
+        timestamp="117154929611102"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="117669490004817"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
