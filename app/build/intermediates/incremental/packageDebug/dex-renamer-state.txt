@@ -1,7 +1,7 @@
-#Thu Oct 13 18:43:49 CEST 2016
-base.0=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60\\classes.dex
-base.1=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60
-file.0=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de\\classes.dex
+#Fri Oct 14 10:37:43 CEST 2016
+base.0=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de\\classes.dex
+base.1=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de
+file.0=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60\\classes.dex

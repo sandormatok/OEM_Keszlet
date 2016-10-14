@@ -20,6 +20,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
@@ -31,6 +32,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -51,6 +53,7 @@ import static android.R.attr.id;
 import static com.google.android.gms.common.api.Status.ss;
 import static com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity.barcode3;
 
+//
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     // use a compound button so either checkbox or switch widgets work.
@@ -82,16 +85,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String zilahianita[] = { "Oroszlány 1.", "Oroszlány 2.", "Tatabánya 1.", "Tatabánya 2.", "Tatabánya 3.", "Környe" };
     String spinnerSelection[]; // = { "Raktár" }
     String spinnerState, Spinner2State;
-
     Spinner spinner, spinner2;
 
+    //spinner adapterek
     ArrayAdapter<String> adapter;
     ArrayAdapter<String> adapter2;
 
+       //ListView array-ek
     ArrayList<String> barcodeList = new ArrayList<String>();
+    ArrayList<String> termekList = new ArrayList<String>();
     ArrayList<String> mennyisegList = new ArrayList<String>();
-    String barcodeArray[], mennyisegArray[];
+    ArrayList<String> mergedList = new ArrayList<String>();
+    String barcodeArray[];
+    String mennyisegArray[];
+    String termekArray[];
+    String mergedArray[];
 
+    //ListView adapter
+    //ListView itemsListView = (ListView) findViewById(R.id.itemListView);
+    //ArrayAdapter<String> listViewAdapter =
+    //        new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, barcodeArray);
+
+    //onCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -112,14 +127,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner2 = (Spinner) findViewById(R.id.bolt_spinner2);
         spinner2.setEnabled(false);
 
+
+        //Tömbök feltöltése
+
+ /*
+        barcodeList.add("BARCODE");
+        mennyisegList.add("AR");
+        termekList.add("TERMEKNEV'");
+        mergedList.add(barcodeList+","+mennyisegList+","+termekList);
+ */
+
         //ArrayList-ekből Array-ek:
         barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
-        mennyisegArray = barcodeList.toArray(new String[barcodeList.size()]);
+        mennyisegArray = mennyisegList.toArray(new String[mennyisegList.size()]);
+        termekArray = mennyisegList.toArray(new String[mennyisegList.size()]);
+        mergedArray = mergedList.toArray(new String[mennyisegList.size()]);
 
+
+
+        //listViewAdapter
+/*        ListView itemsListView = (ListView) findViewById(R.id.itemListView);
+        ArrayAdapter<String> listViewAdapter =
+                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mergedArray);
+        itemsListView.setAdapter(listViewAdapter);
+*/
+        //Mennyiség gomb kezdeti elrejtése
         View changeButton = findViewById(R.id.enter_mennyiseg);
         changeButton.setVisibility(View.GONE);
 
-        //ADAPTERS
+        //SPINNER ADAPTEREK
         ArrayAdapter<String> spinnerArrayAdapterTerulet = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, teruletvalaszto);
         spinnerArrayAdapterTerulet.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
         spinner.setAdapter(spinnerArrayAdapterTerulet);
@@ -365,8 +401,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 // onResult
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        View changeButton = findViewById(R.id.enter_mennyiseg);
-        changeButton.setVisibility(View.VISIBLE);
+        //View changeButton = findViewById(R.id.enter_mennyiseg);
+        //changeButton.setVisibility(View.VISIBLE);
         if (requestCode == RC_BARCODE_CAPTURE) {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
@@ -454,12 +490,40 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             e.printStackTrace();
         }
 
-        barcodeList.add(barcode3); //this adds an element to the list.
+        //terület és boltválasztó gombok elrejtáse
+        spinner.setVisibility(View.GONE);
+        spinner2.setVisibility(View.GONE);
+
+
+        //vonalkód textview megjelenítése
+        //View vvonalkodTextView = findViewById(R.id.vonalkodTextView);
+        //vvonalkodTextView.setVisibility(View.VISIBLE);
+
+        //message textview elrejtése
+        //View mmessageTextView = findViewById(R.id.messageTextView);
+        //mmessageTextView.setVisibility(View.GONE);
+
+        spinner.setVisibility(View.GONE);
+
+        //Tömbök feltöltése
+        barcodeList.add(barcode3);
         mennyisegList.add(ar);
+        termekList.add(termek);
+        mergedList.add(barcode3+", "+termek+", "+ar+"db");
 
+        //ArrayList-ekből Array-ek:
+        barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
+        mennyisegArray = mennyisegList.toArray(new String[mennyisegList.size()]);
+        termekArray = mennyisegList.toArray(new String[mennyisegList.size()]);
+        mergedArray = mergedList.toArray(new String[mennyisegList.size()]);
 
-        //Eredmények megjelenítése
-        termekadatokTextView.setText(marka+"\n"+termek);
-        termekmennyisegTextView.setText(boltnev+"\n"+ar+"db");
+        ListView itemsListView = (ListView) findViewById(R.id.itemListView);
+        ArrayAdapter<String> listViewAdapter =
+                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mergedArray);
+        itemsListView.setAdapter(listViewAdapter);
+
+        messageTextView = (TextView)findViewById(R.id.messageTextView);
+        messageTextView.setBackgroundColor(Color.parseColor("#ff0099cc"));
+        messageTextView.setText(boltnev);
     }
 }
