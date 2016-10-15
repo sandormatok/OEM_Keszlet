@@ -2,1844 +2,220 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="23b7fe8dfaae896d34ac179c3b4e168d5b91a6ce">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eefa7a9abff4ac761e9e646dcdef57446719ee69\classes.dex" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e1ddafaa26cbfbb2d31ef42ee0290ff55c3ce05c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_d2e32540e2178e5c39481597dcead09799c62d83\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b2865481dad46a50055081681a4fc2436c2a93ad\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f4c34fbbdc310a2f568ab416184f0e100e9fe4c9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_2e1ac726cc0f7f65a0f8243d5964bd2e0553fe69\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_f5c80e2158c5e8806230163766d7bc229fdd2a47\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_807353d966fa74b25ea0a4480538802e74f79d44/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_863c6223afe1db4fbd8de01f46f8e9954916ecfd\classes.dex" />
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_3db43bed31c615c33a31ae1ff2f30b3733dc4347/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_2de10a24c6661f8711ca7bd1c8bb0d3d8cf54503\classes.dex" />
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_19dfd0a623ad2fcaaa977286039f5698d36f706c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_4ffcc007d3a3041ea12822a99c2634065c436a6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_64c830bccac17600d0afb9e046d7616ec2ef76d0\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_f5af41864cc6ceac50998ed5f99fcba72bf776af\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ecccf3a4cb2e0315bd42b8cb05547127b4469148/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ab140ef3b748ec3cef6b91a1be51ea0c2663d991\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_59bbd80ed4c8e8a1be7083ecce824872480324f3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_a9e52849e5782f752c90ab9fa40b70b2483ca1b2\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7bb37c136d616b42cde701e6bf0290ed1120c1d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b48854217f0beddb4fd996bc78b3df717b740999\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_eff8e79dc8ac6fd4773ec8ca0c79cc9130b7ff05\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_2e2938e232a0e0adc94a941f21052777d559219f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3f077b3ea3df982329afd177374a3c97097a0108\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_cfae4afdb49e8e84492a2eea12d003f6da2efb07\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_bb5b8eb9ec3144b57f5bd1ba92062d20723fd076/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_3c2ef4a31833f1e0579cfa96b2224412fb633508\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_30af8b6479c1678dd5a1c02be467dbe418755e3a\classes.dex" />
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_03da2f1a530945dddee4b94178b1b7dd3acfd8d5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_7f136baa2522a59367717b55b0f8e47aab77beda\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b802e51fe13e2646c9b58fbdee50dee070067e44\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_bb30c06f2977b0fd10a38f20b276829a9c75f914\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_5e5fd33ba2131646946d2de95bac2c2901e00367\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_70f817e0b1d493130a506c905bbcf78a3defad53\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d76c1653a15ca2f8d603e9a14d71a2f9d9baddbe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_1499e871ada719ae61d0618ea7d8858e15b866ff\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_28afb743cc18e6e7e5b6955d2e1a3edf8ca9ca83\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_5ec2a126c5dbb1c835e3d1572a4cc3a171f52afd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c0a822676494e3d452cd6ca9ad14e55d906ec248\classes.dex" />
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_b4fbbef0db1190821ed663d40c46d984c6a2de1c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_d55eac27c83a04d68e070aa586976d3e642b817a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_db6f6bd773c223b9aa4ccbbd83fbfe597dc91951\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4ae62252b7af421cf825cd4c639a2800e37bd596/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_39b6c6d557312b713a3a5ffb9514ba3f3bd9050f\classes.dex" />
+        revision="24.0.3"
+        sha1="772bd0eab928d3d776e0096db582074b02174868">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d2df4e7d2f410140038b0293a2ac3fd03ba974eb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_30a07dc369c7fe8fbdc0ec4f3c4a5abaf46bece7\classes.dex" />
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7de283d961755ecda31dafb7b46cf0d061e5d39e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="2f99285a14c84110e497b9a6a2e888b192fdc868">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_81aab45265dac1eef1675b57a466932a79e08245\classes.dex" />
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_0c1cd2c8d8385d6659f335aad1cb2afc0e36731c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_7d04fce8b863f1eb31e9405cda06717560f281e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_6d4d1ed0d40719d0d7d043f46f665756e018359e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_113f018ed2ca5117cae83e6743ac6cd245d23f19\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_f4f82a59e55f87562082737be6bed0204331f1d0\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_044b02c9dafcb7f4db47f5eae42d52fc801fe100/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_ecdd5794637a1bfb78aaf63f000afdefcbaa12ff\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_697714b7dd8288a014fdc7db92a01a086f8b1126\classes.dex" />
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_7a23cc414a33601cd4727490b3fcfc75b0599a67/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="T:\APPDATA\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-aar-1.0.0_5f052873b735d3ee715c6c857c2cfcf0ee59a6fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8965fc08fcbb6c6295a2739c195b4b027248cbd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_46c760be09660cedcb7f7c999445a4d038ef82ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b525a54dcb5f4dac3e1a36eb9e3485e30da346b">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_24babb271d116b162817c03afc0232dc63cec4d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/san/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_89823fa1c5edeec87a95346a3c334373f0b3b85e\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_1088f7b88b5779f274771a84f6d4c61af0fd07fe/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a01b52a4bb083e823206bd077c21db29fbf15497">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de\classes.dex" />
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_c57faa743178abab6cd4b04251bfbfb71b0edec7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_4fe7c55fd571929edc4fcb95485205ffdd11f739\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_7be571626ecbb207423a74824067ffbc67b8612b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_25b675d1918ec487b3b4ba68ca22dec213b8c4dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bb47d96dded4a220871163d5ddbffe989f5e50f1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_84852a4377a178e6ad255ab280c02399d24103eb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0a4c17264723cfa15c9feea455aa0b6c6dd98f54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_e781ba60fa1e085ac7778a0e4a068d0614e12302\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8a45b08ca6e30c4a2528861854842e3d61a15aa0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_dd2008fab94bb011a61e319589c259b079d8731a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7bab2b30583a0f77c92555252134cb1325cf0be9">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_401564ebd792249fbae4fbf0658331592aa39bdc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_a814bc4925e4a106383b00dff9d93bb2635578cf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="381bf0b13cd3a123e8d015105be6400115333aa5">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_81944f0ff24125401398b20a0554c2cfcfbe3b2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_3331f7b6214c7b42b5a8de573c1eae0383652d93\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="24.0.3"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_f9434c3f05653df8d7db1a3778e573334a354943\classes.dex" />
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_2cd49ab3f9e4ddd1d47ab56e2d8dfc2bde48eb5f/classes.dex" />
     </item>
     <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_656ae2e77f5a1abdaf4c33b1d4ab246d7e29b6d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_b2d5cfb7e49331f8fd36912e0c10ff4e27386a19\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_5d8d76029a425a6b426b4cc12cc6180928f7538b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_c2ebd4fd54c17984605c8d442e3223e6d672063e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d92a147db7aeb215d0235b9f8285e5341ae4b873\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_e3393db40e75fb325c28cdd06c7a3484c76f0974\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_9f5380a388a505d8f695b37738c91887a6c8c8e8\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3b9dbf03c1228d6d280cd24a538f45b765000e3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_3c0b7cc99f57bd8490bd2c6c34bd3915bd61a416\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8b81661477c54d2081893711e2c500682d07bbf3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_33cc64a6bc4637f590128eaefa940279d3b003fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_86d4fd5f0c5e25d01d6ecd9d9a6275ecf485a4d3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_4b7b29fa57598a7d0ccaae2accfed7337b80b50e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_32ff9a913e2b024b9fac3c2826e3c9b900e86f38\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_d992ae671e99ed5661e5cd714386ade168e3ed54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_c39915ea440993b179802cf7e5ee305b19818132\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_936395e9e0e7a94c5bc2ceff2f9a2abf9639c3bb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_472aa2bee2f5d78bfd26b85ebf8749e057c5f981\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_c160a5a7ad30f78c202117113d1100dc7e38bbe5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_2bc9b5a8b506aeae7f1ce4dc63e959a212eaf500\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_9514e97b6c897058d73b5d929065e3f73061523a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_80dc777be69be32a9d5c48ff2839a7fe70a4e915\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_59bbd80ed4c8e8a1be7083ecce824872480324f3\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_70f817e0b1d493130a506c905bbcf78a3defad53\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_a010bf2ed28baa05aa0dbadc25c0c7fda301d226\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9b621b96b430879c9c1c25bed854497fc0c07a5f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_078a0a094a8bfea73ac7bb91e5cdce9e9e6053ef\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4ba2b40ed005f55d8a1da45f9c5d56e4b7cb3ba7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_397525f8247572b670d27f700f7edd668710491e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ab0f0a61f92750b85d66fe389a37afcfd440bcdc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_e960df6548cdc2905e6e5dc05ad22b5e16b29b46\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_9d68acad394cdb06dc66f9b64276ddb54fd356da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3b8c12a758e22bfcafdab15d2817296596a763e1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="02908b93aadd4db6ea872d661086a9bad3b2981c">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_97ce88f83c5e90ea862c70ff2265bb5044e883c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8a16e61b743c102d04e85d47d1a7bbd65169b161\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8b34c453c5bb08d14cea0e7e2f3594b4c780e3da">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d2fce2a4e4d43e2921e771b6dafd4929a3308386\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="65a7b77ba24b35b521ca7ac67590e2bb23fbeb0a">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6318ef741461ff955f4b079d820b5ccda9047ebd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_66b924920aecaddb7dd92c56fa83fb6f906a4013\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_624e210f91187514d88f53356c77835bcb41aa6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_7910002b59b3ab75eff76ebea3be9741141daa05\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_37070785f881388df8d3cd47ceb382130781d3f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="83fd16a8ce2ebacd0352e6203dd4f1214be49cd8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3342c238a0bb545e417169e6799cea35e2ea575b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_a04bd5849f90661574895ebb961afca397b3a429\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_6c1cd8f83d06dd37e9217641c454804bbbe48a9d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e8769f784f733dc464d3cbc0f7fae1956cee8011">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_afd21c93e5193dd8ff94c4e43e63722263d787a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0bc7cecf47eee40c870a3732b63ef53f5c01ddfa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_670c4c4054ab0236cb376289ae751e1d05b60ab8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_82986c2a28c379b732f08a04aaebaaad2783b33e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_1a9ac9e937ef7f972137c095f5b492dc30a36702\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_cfae4afdb49e8e84492a2eea12d003f6da2efb07\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_8129b4a4eb981771bfdc5b404d33b1adc599d18f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1ecd27620f05e05c1a7ab95056e83e2b037be3b1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_0979ede0c3e21034e01261d1596bd08de57dfedd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_28afb743cc18e6e7e5b6955d2e1a3edf8ca9ca83\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_77417cc4906445d2b753b8c0051df23685688489\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_57c14d3f5b7a017012f4514a6ad99f93f20ddc3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d3d987f9c39834a70f89a1e967cefa84a4fadc7c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="717da0491ef494eb93a44aea7757b69424b629df">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_819bab320128d6abe907f5c89bb5f456f06e713b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_542ff2d021170835a37f019699629d77c6cf84b3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_263b1cefe15d7c5dcc3aa6e39bad231ace786939\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_e323d75dcf702b747e99f3623101e2d2009acd87\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_631cfe81584de9be76d70a4790f75188f6452b84\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_f5ecf98f00c38fd1c736e77c3333d857d3efdc53\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_f5af41864cc6ceac50998ed5f99fcba72bf776af\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_6a9a2b0a6a1b170b9a2e9970fe971a888368c844\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_30f05b839662d535ca16beb50991a2802602164c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_5d0cb3a128854d0cc858a73378bd7d6c81c0b907\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7d3e46ffe9696777bf0ba30c6ce49585471e496d\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_4fe7c55fd571929edc4fcb95485205ffdd11f739\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_ae9fd91d868d9d45d93e34f6d71da9e21abd1a2e\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="939e9d79ecc5c99be7db3ff7354b515c8e3f0a46">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_81944f0ff24125401398b20a0554c2cfcfbe3b2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_8fe81aff7303c21b283a8b7145a7b25e460443b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_9b20344d1c97e2a744a8738d10fdab4bb030f537\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_f22cd10ab138009e9f62531ba4468a8025a270a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_e754b908db9ee3f18e7e2ea48343bc9a14bbd6b1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_0b2cc2d08a802c898325a6a9974202dfb8f8bdbf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_3b4c42cc720646c731505c0764585f7feb6b49de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_827b0007b2f9fa0a2cedfdb259b93cfb2c977a84\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_de39cbd93a16d1eb4dbdc1fd652ce57e2f38fb74\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_697714b7dd8288a014fdc7db92a01a086f8b1126\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_43146abdb5ebca4c45202a679a1e0b30f1f0b7ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_c4bed334aa6b4d7fa212da3e96ac0c428cf53ee9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_98aacf2cac923f3d40c2c9e86d08776690d67087\classes.dex" />
-    </item>
-    <item
-        jar="T:\APPDATA\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_89823fa1c5edeec87a95346a3c334373f0b3b85e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_07dacd3347b33ed8241636c89be6a6835f88ecd6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_0f28dbc8c03e9a643d11dc4faf0a12632a7d1713\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_30af8b6479c1678dd5a1c02be467dbe418755e3a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_81ff6b00557e4dd58f98f0b661823d005edbe1c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ac7e67b29e025054e41e02c9cb1468ffbe1ec63e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1fa1530c38ec6db29733e64fd92653cfdaf3eeb2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_c60812523a033b5331748cd97c0139535bfeac9f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_47d9e8ef6bf32f6520e49bd320d54732c2e13db9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_1b0c2267a21adc92eafd46a65f60007bbcd3c4be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8d4db79b8d9725db72b3c38daaf7522bfa0d2452\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_797bb98832141ac6c3cfc2577f04d54c275528cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7bb37c136d616b42cde701e6bf0290ed1120c1d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_c6d25eeda36e4007feda2b6af86efdb077b132ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_132a30bc50bb275e13ff1264b1e20a10f8d3edc4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4ba2b40ed005f55d8a1da45f9c5d56e4b7cb3ba7\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_32ff9a913e2b024b9fac3c2826e3c9b900e86f38\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_078a0a094a8bfea73ac7bb91e5cdce9e9e6053ef\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_85e58f0ee5127764f608f4bcabdcf931b0c2dccb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a4e896e1f22bbb536c04f4c059e4e40b90335480">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c6f657334462284e43c19b0680e6a276f29beb5c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8d4db79b8d9725db72b3c38daaf7522bfa0d2452\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_b17f8e3a4c01d1dc49520d96c761a0b7914cc6ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ababd55f6402cc722d39e7c1afc0035213859e91\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_a061feb69863b7896963f3a62d467feaf9bae9ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_7fd0cf2b7c62fdf4dd474bf63d70cd7f3b3dec08\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_1b6d5563d663636817f3e07f229af704ad84690a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_01da46513c5b356805cf8a55af84cd1b26f18e57\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3b9dbf03c1228d6d280cd24a538f45b765000e3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c643b8179615c065fa6b75cb9ba430c255296562\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bdab81b91e8492182966459ac80c9a7439c0b309\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_59c02799f31293e5484a5ba3eaefb1572c73cd57\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="148bac452064db3863a849b9e4c75c11cb1b8e0d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_07aa6bbc9970f454fa1be771f8253bc3095c94bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_77599d88996e14d51c25590435459baedc3bb74c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_21bc1e5ef295478d73d3c7ba9af195186bdf6649\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_129b4cf6a681c0ed578a27bee3da85ce5699e68b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3556be731ec925e4a9634eed345dea6f5ef6327f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5d3377195db695acaed955ea3dd4fce4e5985bb6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_569c0a2276843aa5b9efc4e2cacb6d53f94ac0b2\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_5d8d76029a425a6b426b4cc12cc6180928f7538b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_5b2825d6b776352f50d1ca1fdd6862ae8b20fb09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_ca10f87ce8d48c9a6618b629ff668900c5018b16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_e6c90c401529ca5e227c20743f7881900ecf7bb6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d9fa3cca955dea992c117b9be506f1a4fdbea855\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_f801fa5107af5bb898aeaa3024e2961dd90351e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6ae549e4367ba0a055af86f4866ef9e28cd5b2de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_d492db3bc99f41a53a3cd41924d9b1cb761d328f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_225c3814398f31919e4cc7c1fb9d3149b8aabff3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_0627924fdb73b14a7391fb7646c4cefe387f6563\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_d8a372e393ebae8d0e1e338cc12f759dffca0375\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample5\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_bb10e1795b37050d3e042c3886f64bdb3bd04384\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6de633b30e1e8f862248fd5435954243ba1e7a6b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d983187105511378d007ee0ee38eef7eab7c78c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_a0f8bc279b31bc5bae1886edf943e82ae1b25df1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_a6c996e919734a8f8c172e8dec030a5998072328\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_d992ae671e99ed5661e5cd714386ade168e3ed54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_656ae2e77f5a1abdaf4c33b1d4ab246d7e29b6d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_4829ac0f0b30c112ea56d0ecee13532f09d98ba7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_9bd8d088f316901697116201202478e943e24b13\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ab0f0a61f92750b85d66fe389a37afcfd440bcdc\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_e960df6548cdc2905e6e5dc05ad22b5e16b29b46\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_72076dca5fae0adce31cc50f37c8cf5516e0f008\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample8\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_2f3c4cb29c46029e15a0fb73ac4da68a652dd519\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5bc030fba25b8368f62154e9324878b4483e1cef">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eefa7a9abff4ac761e9e646dcdef57446719ee69\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\san\AndroidStudioProjects\raktari-keszletellenorzo-visionsample9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_c292d1d59dfab2fd3e6520845191ff1ca305024f\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_f5c80e2158c5e8806230163766d7bc229fdd2a47\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase4_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_7de4bd92389eb7c73b3512d1af5a16c4a517add9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_de92442ba0adb903c1a57a3e0f37462b0c88a73b\classes.dex" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="61473f398585aab89067834b67c3190f847062b3">
-        <dex dex="C:\Users\san\AndroidStudioProjects\Raktar_workingbase5_2spinner_post\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7dfafae0a615f5bd7a324d17253e4af4efda457c\classes.dex" />
+        revision="24.0.3"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.1_da06cb52ac2a4c1f89beed0bab28c4c02024b475/classes.dex" />
     </item>
 
 </items>

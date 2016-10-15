@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_delete.png",
-        "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\src\\main\\res\\drawable-hdpi\\ic_action_delete.png"
+        "merged": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/home/san/AndroidStudioProjects/oem_keszlet/app/src/main/res/drawable-hdpi/icon.png"
     },
     {
-        "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_delete.png",
+        "source": "/home/san/AndroidStudioProjects/oem_keszlet/app/src/main/res/drawable-hdpi/ic_action_delete.png"
     }
 ]

@@ -72,6 +72,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
     // constants used to pass extra data in the intent
     public static final String AutoFocus = "AutoFocus";
     public static final String UseFlash = "UseFlash";
+    public static final String FastMode = "FastMode";
     public static final String BarcodeObject = "Barcode";
 
     private CameraSource mCameraSource;

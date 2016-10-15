@@ -18,26 +18,16 @@ public final class R {
 		public static final int scopeUris = 0x7f0100fc;
 	}
 	public static final class color {
-		public static final int common_google_signin_btn_text_dark = 0x7f0c0066;
+		public static final int common_google_signin_btn_text_dark = 0x7f0c005e;
 		public static final int common_google_signin_btn_text_dark_default = 0x7f0c0012;
 		public static final int common_google_signin_btn_text_dark_disabled = 0x7f0c0013;
 		public static final int common_google_signin_btn_text_dark_focused = 0x7f0c0014;
 		public static final int common_google_signin_btn_text_dark_pressed = 0x7f0c0015;
-		public static final int common_google_signin_btn_text_light = 0x7f0c0067;
+		public static final int common_google_signin_btn_text_light = 0x7f0c005f;
 		public static final int common_google_signin_btn_text_light_default = 0x7f0c0016;
 		public static final int common_google_signin_btn_text_light_disabled = 0x7f0c0017;
 		public static final int common_google_signin_btn_text_light_focused = 0x7f0c0018;
 		public static final int common_google_signin_btn_text_light_pressed = 0x7f0c0019;
-		public static final int common_plus_signin_btn_text_dark = 0x7f0c0068;
-		public static final int common_plus_signin_btn_text_dark_default = 0x7f0c001a;
-		public static final int common_plus_signin_btn_text_dark_disabled = 0x7f0c001b;
-		public static final int common_plus_signin_btn_text_dark_focused = 0x7f0c001c;
-		public static final int common_plus_signin_btn_text_dark_pressed = 0x7f0c001d;
-		public static final int common_plus_signin_btn_text_light = 0x7f0c0069;
-		public static final int common_plus_signin_btn_text_light_default = 0x7f0c001e;
-		public static final int common_plus_signin_btn_text_light_disabled = 0x7f0c001f;
-		public static final int common_plus_signin_btn_text_light_focused = 0x7f0c0020;
-		public static final int common_plus_signin_btn_text_light_pressed = 0x7f0c0021;
 	}
 	public static final class dimen {
 	}
@@ -64,26 +54,6 @@ public final class R {
 		public static final int common_google_signin_btn_text_light_normal = 0x7f020066;
 		public static final int common_google_signin_btn_text_light_pressed = 0x7f020067;
 		public static final int common_ic_googleplayservices = 0x7f020068;
-		public static final int common_plus_signin_btn_icon_dark = 0x7f020069;
-		public static final int common_plus_signin_btn_icon_dark_disabled = 0x7f02006a;
-		public static final int common_plus_signin_btn_icon_dark_focused = 0x7f02006b;
-		public static final int common_plus_signin_btn_icon_dark_normal = 0x7f02006c;
-		public static final int common_plus_signin_btn_icon_dark_pressed = 0x7f02006d;
-		public static final int common_plus_signin_btn_icon_light = 0x7f02006e;
-		public static final int common_plus_signin_btn_icon_light_disabled = 0x7f02006f;
-		public static final int common_plus_signin_btn_icon_light_focused = 0x7f020070;
-		public static final int common_plus_signin_btn_icon_light_normal = 0x7f020071;
-		public static final int common_plus_signin_btn_icon_light_pressed = 0x7f020072;
-		public static final int common_plus_signin_btn_text_dark = 0x7f020073;
-		public static final int common_plus_signin_btn_text_dark_disabled = 0x7f020074;
-		public static final int common_plus_signin_btn_text_dark_focused = 0x7f020075;
-		public static final int common_plus_signin_btn_text_dark_normal = 0x7f020076;
-		public static final int common_plus_signin_btn_text_dark_pressed = 0x7f020077;
-		public static final int common_plus_signin_btn_text_light = 0x7f020078;
-		public static final int common_plus_signin_btn_text_light_disabled = 0x7f020079;
-		public static final int common_plus_signin_btn_text_light_focused = 0x7f02007a;
-		public static final int common_plus_signin_btn_text_light_normal = 0x7f02007b;
-		public static final int common_plus_signin_btn_text_light_pressed = 0x7f02007c;
 	}
 	public static final class id {
 		public static final int adjust_height = 0x7f0d0036;
@@ -97,8 +67,8 @@ public final class R {
 		public static final int normal = 0x7f0d000c;
 		public static final int radio = 0x7f0d005e;
 		public static final int standard = 0x7f0d003e;
-		public static final int text = 0x7f0d00a6;
-		public static final int text2 = 0x7f0d00a4;
+		public static final int text = 0x7f0d00a8;
+		public static final int text2 = 0x7f0d00a6;
 		public static final int wide = 0x7f0d003f;
 		public static final int wrap_content = 0x7f0d0020;
 	}

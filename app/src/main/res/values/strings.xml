@@ -8,8 +8,8 @@
     <string name="barcode_header"></string>
     <string name="read_barcode">BEOLVASÁS</string>
     <string name="enter_barcode">BEÍRÁS</string>
-    <string name="enter_mennyiseg">Mennyiség javítása...</string>
-    <string name="status_message">Válassz területet és üzletet:</string>
+    <string name="enter_mennyiseg">MENNYISÉG JAVÍTÁSA...</string>
+    <string name="status_message">VÁLASSZ TERÜLETET ÉS ÜZLETET</string>
     <string name="auto_focus">Autófókusz</string>
     <string name="use_flash">Vaku</string>
     <string name="barcode_success">Vonalkód beolvasva!</string>
@@ -19,7 +19,7 @@
     <string name="results_termek">\nTermék:\t</string>
     <string name="results_ar">\nKészlet:\t</string>
     <string name="boltok_prompt">Válassz boltot!</string>
-    <string name="spinner_prompt">Válassz területet és üzletet:</string>
+    <string name="spinner_prompt">VÁLASSZ TERÜLETET ÉS ÜZLETET</string>
     <string name="termeknevEditTextString">Terméknév</string>
     <string name="mennyisegEditTextString">#</string>
     <string name="torlesImageButtonString">Törlés</string>

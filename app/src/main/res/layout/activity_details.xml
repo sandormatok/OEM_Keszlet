@@ -14,7 +14,26 @@
         android:layout_width="fill_parent"
         android:id="@+id/tableLayout1"
         android:layout_height="match_parent"
-        android:layout_alignBottom="@+id/fakeView">
+        android:layout_above="@+id/enter_mennyiseg">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="4dp"
+            android:background="?attr/colorBackgroundFloating">
+            <TextView
+                android:id="@+id/vonalkodValue"
+                android:gravity="center"
+                android:minLines="2"
+                android:text=""
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+        </TableRow>
+
         <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -24,7 +43,7 @@
             <TextView
                 android:id="@+id/markaLabel"
                 android:gravity="center"
-                android:minLines="3"
+                android:minLines="1"
                 android:text="Márka:  "
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
@@ -36,8 +55,8 @@
             <TextView
                 android:id="@+id/markaValue"
                 android:gravity="center"
-                android:minLines="4"
-                android:textSize="18sp"
+                android:minLines="2"
+                android:textSize="20sp"
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="3"
@@ -52,7 +71,7 @@
             <TextView
                 android:id="@+id/termekLabel"
                 android:gravity="center"
-                android:minLines="3"
+                android:minLines="1"
                 android:text="Termék:  "
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
@@ -63,8 +82,8 @@
             <TextView
                 android:id="@+id/termekValue"
                 android:gravity="center"
-                android:minLines="4"
-                android:textSize="18sp"
+                android:minLines="2"
+                android:textSize="20sp"
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="3"
@@ -79,7 +98,7 @@
             <TextView
                 android:id="@+id/mennyisegLabel"
                 android:gravity="center"
-                android:minLines="3"
+                android:minLines="1"
                 android:text="Darab:  "
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
@@ -90,8 +109,8 @@
             <TextView
                 android:id="@+id/mennyisegValue"
                 android:gravity="center"
-                android:minLines="4"
-                android:textSize="18sp"
+                android:minLines="2"
+                android:textSize="24sp"
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="3"
@@ -109,19 +128,18 @@
     <Button
         android:layout_width="wrap_content"
         android:onClick="enter_mennyisegClick"
-        android:layout_height="50dp"
-        android:layout_margin="4dp"
+        android:layout_height="60dp"
         android:text="@string/enter_mennyiseg"
         android:id="@+id/enter_mennyiseg"
         android:textSize="16sp"
         android:textColor="@android:color/background_light"
         android:textStyle="normal|bold"
         android:background="?attr/colorButtonNormal"
-        android:layout_below="@+id/tableLayout1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textAllCaps="false" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
