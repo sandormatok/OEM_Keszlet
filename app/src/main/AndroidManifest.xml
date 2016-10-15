@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera" />
@@ -35,17 +37,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".BarcodeCaptureActivity"
-
-            android:label="Válassz ki egy vonalkódot..." />
-         <activity android:name=".DetailsActivity">
-
+            android:label="Vonalkód beolvasó" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.android.gms.oem.bolti.keszlet.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name=".DetailsActivity" >
              <meta-data
                  android:name="android.support.PARENT_ACTIVITY"
-
                  android:value="com.google.android.gms.oem.bolti.keszlet.MainActivity" />
-         </activity>
+        </activity>
     </application>
 
 </manifest>

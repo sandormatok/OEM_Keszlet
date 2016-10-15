@@ -28,6 +28,7 @@ import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
@@ -35,6 +36,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.GestureDetector;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
@@ -97,7 +99,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
         boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
 
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
@@ -118,6 +120,18 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
           //      .show();
 
 
+    }
+
+    //ActionBar Back ne nullázza az activity-t!!
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Toast.makeText(getApplicationContext(),"Vissza:működik!", Toast.LENGTH_SHORT).show();
+                super.onBackPressed();
+                break;
+        }
+        return true;
     }
 
     /**
@@ -178,7 +192,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         // graphics for each barcode on screen.  The factory is used by the multi-processor to
         // create a separate tracker instance for each barcode.
         BarcodeDetector barcodeDetector = new BarcodeDetector.Builder(context).build();
-        BarcodeDetector barcodeDetector2 = new BarcodeDetector.Builder(context).build();
+        //BarcodeDetector barcodeDetector2 = new BarcodeDetector.Builder(context).build();
         BarcodeTrackerFactory barcodeFactory = new BarcodeTrackerFactory(mGraphicOverlay);
 
         //barcodeDetector.setProcessor(
@@ -193,7 +207,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
             public void receiveDetections(Detector.Detections<Barcode> detections) {
                 final SparseArray<Barcode> barcodes = detections.getDetectedItems();
                 //MediaPlayer mp = MediaPlayer.create(this, R.raw.sound);
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                 if (barcodes.size() != 0) {
+
+                    //ok vibrate
+                    Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                    v.vibrate(100);
 
                   //  mp.start();
                     barcode3 = barcodes.valueAt(0).displayValue;

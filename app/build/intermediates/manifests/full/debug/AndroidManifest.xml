@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera" />
@@ -43,7 +44,11 @@
         </activity>
         <activity
             android:name="com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity"
-            android:label="Válassz ki egy vonalkódot..." />
+            android:label="Vonalkód beolvasó" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.android.gms.oem.bolti.keszlet.MainActivity" />
+        </activity>
         <activity android:name="com.google.android.gms.oem.bolti.keszlet.DetailsActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

@@ -8,7 +8,7 @@
     <string name="barcode_header"></string>
     <string name="read_barcode">BEOLVASÁS</string>
     <string name="enter_barcode">BEÍRÁS</string>
-    <string name="enter_mennyiseg">Mennyiség javítása</string>
+    <string name="enter_mennyiseg">Mennyiség javítása...</string>
     <string name="status_message">Válassz területet és üzletet:</string>
     <string name="auto_focus">Autófókusz</string>
     <string name="use_flash">Vaku</string>

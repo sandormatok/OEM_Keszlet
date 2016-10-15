@@ -364,21 +364,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a5f05ac9d063835e6c90f4203123a115cbc0c9e5">
-        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="T:\APPDATA\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\san\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_89823fa1c5edeec87a95346a3c334373f0b3b85e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a01b52a4bb083e823206bd077c21db29fbf15497">
+        <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3678858be035dd4feddd2a7cc801f8ed008ad7de\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -467,7 +467,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="5353550d4d79175c578e213f5d301c27a1dc07ff">
+        sha1="7bab2b30583a0f77c92555252134cb1325cf0be9">
         <dex dex="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d7d59c5ee8c147230069585ae7c557aabd40e60\classes.dex" />
     </item>
     <item

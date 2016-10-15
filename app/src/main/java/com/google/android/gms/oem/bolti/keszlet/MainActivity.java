@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
@@ -53,6 +54,8 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 import static android.R.attr.id;
 import static com.google.android.gms.common.api.Status.ss;
 import static com.google.android.gms.oem.bolti.keszlet.BarcodeCaptureActivity.barcode3;
@@ -101,11 +104,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //ListView array-ek
     ArrayList<String> barcodeList = new ArrayList<String>();
+    ArrayList<String> markaList = new ArrayList<String>();
     ArrayList<String> termekList = new ArrayList<String>();
     ArrayList<String> mennyisegList = new ArrayList<String>();
     ArrayList<String> mergedList = new ArrayList<String>();
+
+
     String barcodeArray[];
     String mennyisegArray[];
+    String markaArray[];
     String termekArray[];
     String mergedArray[];
 
@@ -123,6 +130,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         //getActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().hide();
 
         vonalkodTextView = (TextView)findViewById(R.id.vonalkodTextView);
         messageTextView = (TextView)findViewById(R.id.messageTextView);
@@ -236,6 +245,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     void populateSpinner(){
         if(spinnerState == "raktar"){
             spinner2.setEnabled(false);
+            messageTextView.setText("Válassz boltcsoportot:");
             ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, raktar);
             spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
             spinner2.setAdapter(spinnerArrayAdapter);
@@ -427,7 +437,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Log.d(TAG,ss + barcode3);
                     getData();
                     } else {
-                    vonalkodTextView.setText(R.string.barcode_failure);
+                    //no barcode error vibrate
+                    //Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                    //long[] pattern = {0, 50, 100, 50, 100, 50, 100, 50};
+                    //v.vibrate(pattern, -1);
+                    messageTextView.setText(R.string.barcode_failure);
                     Log.d(TAG, "No barcode captured, intent data is null");
                 }
             } else {
@@ -435,7 +449,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         CommonStatusCodes.getStatusCodeString(resultCode)));
             }
         }
-
         else {
             super.onActivityResult(requestCode, resultCode, data);
         }
@@ -489,9 +502,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     //JSON feldolgozása, eredmények megjelenítése
-    private void showJSON(String response){
-        String marka="";
-        String termek="";
+    private void showJSON(String response) {
+        String marka = "";
+        String termek = "";
         String ar = "";
         try {
             JSONObject jsonObject = new JSONObject(response);
@@ -519,35 +532,115 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner.setVisibility(View.GONE);
 
         //Tömbök feltöltése
-        barcodeList.add(barcode3);
-        mennyisegList.add(ar);
-        termekList.add(termek);
-        mergedList.add(termek+", "+ar+"db");
+
+        //finals for intent extras
+        final String ar1 = ar;
+        final String barcode1 = barcode3;
+        final String marka1 = marka;
+        final String termek1 = termek;
+
+/*
+        if (termek.equals("null")){
+            marka="ISMERETLEN MÁRKA";
+            termek="ISMERETLEN TERMÉK";
+        }
+
+        if (marka.equals("null")){
+            marka="ISMERETLEN MÁRKA";
+            termek="ISMERETLEN TERMÉK";
+        }
+*/
+
+        if (barcodeList.contains(barcode3)) {
+            Toast toast = Toast.makeText(getApplicationContext(),"EZT MÁR BEOLVASTAD!", Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.CENTER, 0, 0);
+            toast.show();
+            //error already scanned vibrate
+            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            long[] pattern = {0, 200, 100, 200};
+            v.vibrate(pattern, -1);
+        } else {
+            barcodeList.add(barcode3);
+            mennyisegList.add(ar);
+            termekList.add(termek);
+            markaList.add(marka);
+            mergedList.add(barcode3+" - "+marka+"\n"+termek + "\n" + ar + "db");
+        }
+
+
+        /*
+        if (termek != null && !termek.isEmpty() && !barcodeList.contains(barcode3)) {
+            barcodeList.add(barcode3);
+            mennyisegList.add(ar);
+            termekList.add(termek);
+            mergedList.add(barcode3+marka+"\n"+termek + "\n" + ar + "db");
+        } else {
+            Toast toast = Toast.makeText(getApplicationContext(), "Hibás, vagy ismeretlen vonalkód!", Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.CENTER, 0, 0);
+            toast.show();
+            //no barcode error vibrate
+            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            long[] pattern = {0, 50, 100, 50, 100, 50, 100, 50};
+            v.vibrate(pattern, -1);
+        }
+        */
+
+
+/*
+        if (termek == null) {
+            Toast toast = Toast.makeText(getApplicationContext(), barcode3 + " - Ismeretlen vonalkód!", Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.CENTER, 0, 0);
+            toast.show();
+            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            long[] pattern = {0, 50, 100, 50, 100, 50, 100, 50};
+            v.vibrate(pattern, -1);
+        }
+
+        if(!barcodeList.contains(barcode3)){
+            barcodeList.add(barcode3);
+            mennyisegList.add(ar);
+            termekList.add(termek);
+            mergedList.add(termek+", "+ar+"db");
+        }
+*/
 
         //ArrayList-ekből Array-ek:
         barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
         mennyisegArray = mennyisegList.toArray(new String[mennyisegList.size()]);
-        termekArray = mennyisegList.toArray(new String[mennyisegList.size()]);
-        mergedArray = mergedList.toArray(new String[mennyisegList.size()]);
+        termekArray = termekList.toArray(new String[termekList.size()]);
+        markaArray = markaList.toArray(new String[markaList.size()]);
+        mergedArray = mergedList.toArray(new String[mergedList.size()]);
 
         ListView itemsListView = (ListView) findViewById(itemListView);
         ArrayAdapter<String> listViewAdapter =
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mergedArray);
         itemsListView.setAdapter(listViewAdapter);
-        //itemViewList = boltnev;
 
+        //itemViewList = boltnev;
         itemsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position,
                                     long id) {
                 String item = ((TextView)view).getText().toString();
-                itemViewList = item;
-                itemPosition  = position;
-                //messageTextView.setText(itemViewList);
-                //Toast.makeText(getBaseContext(), item, Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(view.getContext(),DetailsActivity.class);
+/*
+                String ar2 = mennyisegList.get(position-1);
+                String marka2 = markaList.get(position-1);
+                String termek2 = termekList.get(position-1);
+                String barcode2 = barcodeList.get(position-1);
+*/
+
                 intent.putExtra("positionExtra",position);
-                intent.putExtra("itemExtra",itemViewList);
+                intent.putExtra("itemExtra",item);
+                intent.putExtra("barcodeExtra",barcodeArray);
+                intent.putExtra("dbExtra",mennyisegArray);
+                intent.putExtra("markaExtra",markaArray);
+                intent.putExtra("termekExtra",termekArray);
+
+                //Toast toast = Toast.makeText(getApplicationContext(),"1:"+marka1+","+termek1+","+ar1+", Toast.LENGTH_LONG);
+                //toast.setGravity(Gravity.CENTER, 0, 0);
+                //toast.show();
+
                 startActivity(intent);
             }
         });
@@ -556,6 +649,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         messageTextView.setText("Válassz ki egy tételt:");
         //messageTextView.setVisibility(View.GONE);
         //messageTextView.setBackgroundColor(Color.parseColor("#ff0099cc"));
-
     }
 }
+
+//}
