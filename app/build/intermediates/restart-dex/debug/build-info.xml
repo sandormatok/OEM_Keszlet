@@ -5,26 +5,22 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="13206421143565"
+    timestamp="16440787523966"
     token="-2373564206881153818"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="740" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="3541" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="110" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
-
-    <artifact
-        location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        duration="0" />
 
     <build
         timestamp="10461176633990"
@@ -44,25 +40,14 @@
             type="DEX" />
     </build>
     <build
-        timestamp="13097704858178"
+        timestamp="15488141160253"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="13183816774902"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="13206421143565"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
+        timestamp="16440787523966"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

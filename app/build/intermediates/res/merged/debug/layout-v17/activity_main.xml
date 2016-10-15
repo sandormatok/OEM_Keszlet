@@ -14,7 +14,7 @@
         android:text="Válassz boltcsoportot:"
         android:layout_marginTop="4dp"
         android:layout_height="30dp"
-        android:background="#373638"
+        android:background="#ff000000"
         android:textAlignment="center"
         android:textSize="20sp"
         android:layout_alignParentRight="true"

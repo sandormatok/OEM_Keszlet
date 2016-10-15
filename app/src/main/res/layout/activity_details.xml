@@ -43,7 +43,7 @@
             <TextView
                 android:id="@+id/markaLabel"
                 android:gravity="center"
-                android:minLines="1"
+                android:minLines="2"
                 android:text="Márka:  "
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
@@ -98,7 +98,7 @@
             <TextView
                 android:id="@+id/mennyisegLabel"
                 android:gravity="center"
-                android:minLines="1"
+                android:minLines="2"
                 android:text="Darab:  "
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
