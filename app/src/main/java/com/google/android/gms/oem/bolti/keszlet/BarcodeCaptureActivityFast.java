@@ -50,6 +50,7 @@ import com.google.android.gms.oem.bolti.keszlet.ui.camera.CameraSourcePreview;
 
 import com.google.android.gms.oem.bolti.keszlet.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.Detector;
+import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
@@ -60,7 +61,7 @@ import java.io.IOException;
  * rear facing camera. During detection overlay graphics are drawn to indicate the position,
  * size, and ID of each barcode.
  */
-public final class BarcodeCaptureActivity extends AppCompatActivity {
+public final class BarcodeCaptureActivityFast extends AppCompatActivity {
     private static final String TAG = "Barcode-reader";
 
     // intent request code to handle updating play services if needed.
@@ -196,9 +197,10 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         //BarcodeDetector barcodeDetector2 = new BarcodeDetector.Builder(context).build();
         BarcodeTrackerFactory barcodeFactory = new BarcodeTrackerFactory(mGraphicOverlay);
 
-        //barcodeDetector.setProcessor(
-        //        new MultiProcessor.Builder<>(barcodeFactory).build());
+        barcodeDetector.setProcessor(
+                new MultiProcessor.Builder<>(barcodeFactory).build());
 
+/*
         barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
             @Override
             public void release() {
@@ -215,7 +217,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                     Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                     v.vibrate(100);
 
-                  //  mp.start();
+                    //  mp.start();
                     barcode3 = barcodes.valueAt(0).displayValue;
                     Log.w(TAG, barcode3);
                     Intent data = new Intent();
@@ -226,7 +228,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
             }
 
         });
-
+*/
 
         if (!barcodeDetector.isOperational()) {
             // Note: The first time that an app using the barcode or face API is installed on a

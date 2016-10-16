@@ -332,14 +332,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }*/
 
     public void onClick(View v) {
+        fastMode = (CompoundButton) findViewById(R.id.fast_mode);
         //VONALKÓD OLVASÓ MEGHÍVASA
         if (v.getId() == R.id.read_barcode) {
             // launch barcode activity.
-            Intent intent = new Intent(this, BarcodeCaptureActivity.class);
-            intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
-            intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
-            intent.putExtra(BarcodeCaptureActivity.FastMode, fastMode.isChecked());
-            startActivityForResult(intent, RC_BARCODE_CAPTURE);
+            if(fastMode.isChecked()){
+                Intent intent = new Intent(this, BarcodeCaptureActivityFast.class);
+                intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
+                intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
+                intent.putExtra(BarcodeCaptureActivity.FastMode, fastMode.isChecked());
+                startActivityForResult(intent, RC_BARCODE_CAPTURE);
+            }
+            else {
+                Intent intent = new Intent(this, BarcodeCaptureActivity.class);
+                intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
+                intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
+                intent.putExtra(BarcodeCaptureActivity.FastMode, fastMode.isChecked());
+                startActivityForResult(intent, RC_BARCODE_CAPTURE);
+            }
+
+
+
+
+
         }
         //VONALKOD BEÍRÁSA KÉZZEL
         if (v.getId() == R.id.enter_barcode) {
