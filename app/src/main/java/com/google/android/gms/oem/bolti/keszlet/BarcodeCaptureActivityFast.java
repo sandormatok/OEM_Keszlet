@@ -50,7 +50,6 @@ import com.google.android.gms.oem.bolti.keszlet.ui.camera.CameraSourcePreview;
 
 import com.google.android.gms.oem.bolti.keszlet.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.Detector;
-import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
@@ -117,9 +116,6 @@ public final class BarcodeCaptureActivityFast extends AppCompatActivity {
 
 
 
-        Snackbar.make(mGraphicOverlay, "Érintsd meg a vonalkódot a kiválasztáshoz,\"\\n\" Két ujjal pedig kicsinyíthetsz/nagyíthatsz!",
-                Snackbar.LENGTH_LONG)
-                .show();
 
 
     }
@@ -197,14 +193,15 @@ public final class BarcodeCaptureActivityFast extends AppCompatActivity {
         //BarcodeDetector barcodeDetector2 = new BarcodeDetector.Builder(context).build();
         BarcodeTrackerFactory barcodeFactory = new BarcodeTrackerFactory(mGraphicOverlay);
 
-        barcodeDetector.setProcessor(
-                new MultiProcessor.Builder<>(barcodeFactory).build());
+        //barcodeDetector.setProcessor(
+        //        new MultiProcessor.Builder<>(barcodeFactory).build());
 
-/*
+
         barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
             @Override
             public void release() {
             }
+
 
             @Override
             public void receiveDetections(Detector.Detections<Barcode> detections) {
@@ -217,18 +214,27 @@ public final class BarcodeCaptureActivityFast extends AppCompatActivity {
                     Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                     v.vibrate(100);
 
+
+
                     //  mp.start();
                     barcode3 = barcodes.valueAt(0).displayValue;
                     Log.w(TAG, barcode3);
-                    Intent data = new Intent();
-                    data.putExtra(BarcodeObject, barcode3);
-                    setResult(CommonStatusCodes.SUCCESS, data);
-                    finish();
+
+                    Snackbar.make(mGraphicOverlay, barcode3,
+                            Snackbar.LENGTH_LONG)
+                            .show();
+
+                    //Intent data = new Intent();
+                    //data.putExtra(BarcodeObject, barcode3);
+                    //setResult(CommonStatusCodes.SUCCESS, data);
+                    //finish();
                 }
             }
 
         });
-*/
+
+
+
 
         if (!barcodeDetector.isOperational()) {
             // Note: The first time that an app using the barcode or face API is installed on a

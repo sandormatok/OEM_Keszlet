@@ -36,12 +36,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.GestureDetector;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.common.api.CommonStatusCodes;
@@ -53,7 +60,14 @@ import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
 
 /**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the
@@ -74,6 +88,19 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
     public static final String UseFlash = "UseFlash";
     public static final String FastMode = "FastMode";
     public static final String BarcodeObject = "Barcode";
+    public static final String BarcodeObject2 = "barcodeList";
+    //ListView array-ek
+    ArrayList<String> barcodeListFast = new ArrayList<String>();
+    ArrayList<String> markaListFast = new ArrayList<String>();
+    ArrayList<String> termekListFast = new ArrayList<String>();
+    ArrayList<String> mennyisegListFast = new ArrayList<String>();
+    ArrayList<String> mergedListFast = new ArrayList<String>();
+
+    String barcodeArrayFast[];
+    String mennyisegArrayFast[];
+    String markaArrayFast[];
+    String termekArrayFast[];
+    String mergedArrayFast[];
 
     private CameraSource mCameraSource;
     private CameraSourcePreview mPreview;
@@ -85,6 +112,9 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
 
     public static Barcode barcode = null;
     public static String barcode3;
+
+    String barcodeOld;
+
     /**
      * Initializes the UI and creates the detector pipeline.
      */
@@ -116,10 +146,10 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
 
 
 
-        Snackbar.make(mGraphicOverlay, "Érintsd meg a vonalkódot a kiválasztáshoz,\"\\n\" Két ujjal pedig kicsinyíthetsz/nagyíthatsz!",
+       /* Snackbar.make(mGraphicOverlay, "Érintsd meg a vonalkódot a kiválasztáshoz,\"\\n\" Két ujjal pedig kicsinyíthetsz/nagyíthatsz!",
                 Snackbar.LENGTH_LONG)
                 .show();
-
+*/
 
     }
 
@@ -180,7 +210,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
      * Creates and starts the camera.  Note that this uses a higher resolution in comparison
      * to other detection examples to enable the barcode detector to detect small barcodes
      * at long distances.
-     *
+     * <p>
      * Suppressing InlinedApi since there is a check that the minimum version is met before using
      * the constant.
      */
@@ -210,21 +240,33 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 //MediaPlayer mp = MediaPlayer.create(this, R.raw.sound);
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                 if (barcodes.size() != 0) {
-
-                    //ok vibrate
-                    Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                    v.vibrate(100);
-
-                  //  mp.start();
+                    //  mp.start();
                     barcode3 = barcodes.valueAt(0).displayValue;
                     Log.w(TAG, barcode3);
-                    Intent data = new Intent();
-                    data.putExtra(BarcodeObject, barcode3);
-                    setResult(CommonStatusCodes.SUCCESS, data);
-                    finish();
+
+                    if (!barcode3.equals(barcodeOld) && !barcodeListFast.contains(barcode3)) {
+                        barcodeListFast.add(barcode3);
+                        getDataFast();
+
+                        //ok vibrate
+                        Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                        v.vibrate(100);
+
+                    } else {
+                        //Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                        //long[] pattern = {0, 50, 50, 50};
+                        //v.vibrate(pattern, -1);
+
+                        Toast toast = Toast.makeText(getApplicationContext(), "MÁR SZEREPEL A LISTÁN!", Toast.LENGTH_SHORT);
+                        toast.setGravity(Gravity.CENTER, 0, 0);
+                        toast.show();
+                    }
+
+                    barcodeOld = barcode3;
+
+
                 }
             }
-
         });
 
 
@@ -249,8 +291,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 Toast.makeText(this, R.string.low_storage_error, Toast.LENGTH_LONG).show();
                 Log.w(TAG, getString(R.string.low_storage_error));
             }
-
-
 
 
         }
@@ -279,6 +319,128 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
     /**
      * Restarts the camera.
      */
+
+    //Stringrequest (url), Response
+
+    private void getDataFast() {
+        Intent intentMain  = getIntent();
+        Bundle extras = intentMain.getExtras();
+        String boltnev = extras.getString("boltnevExtra");
+        String boltnev2 = extras.getString("boltnev2Extra");
+
+
+        //final TextView barcodeInfo = (TextView) findViewById(R.id.code_info);
+        final TextView barcodeInfo = (TextView) findViewById(R.id.vonalkodTextView);
+        String id = barcode3;
+
+        //vonalkodTextView.setText(barcode3);
+
+        try {
+            String encodedString = URLEncoder.encode(boltnev, "UTF-8");
+            boltnev2 = encodedString;
+            Log.d("TEST", "encodedString:" + encodedString);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        //StringRequest felépítése
+        String url = Config.DATA_URL + id + "&bkod=" + boltnev2;
+
+        if (boltnev.equals("Raktár")) {
+            url = Config.DATA_RAKTAR_URL + id;
+        }
+
+        //StringRequest
+        StringRequest stringRequest = new StringRequest(url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                //        loading.dismiss();
+                showJSONFast(response);
+            }
+        },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(BarcodeCaptureActivity.this, error.getMessage().toString(), Toast.LENGTH_LONG).show();
+                    }
+                });
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
+        requestQueue.add(stringRequest);
+        barcodeInfo.setText(id);
+    }
+
+
+    //JSON feldolgozása, eredmények megjelenítése
+    private void showJSONFast(String response) {
+        String marka = "";
+        String termek = "";
+        String ar = "";
+        try {
+            JSONObject jsonObject = new JSONObject(response);
+            JSONArray result = jsonObject.getJSONArray(Config.JSON_ARRAY);
+            JSONObject termekData = result.getJSONObject(0);
+            marka = termekData.getString(Config.KEY_MARKA);
+            termek = termekData.getString(Config.KEY_TERMEK);
+            ar = termekData.getString(Config.KEY_KESZLET);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+    //    if (!barcodeListFast.contains(barcode3)) {
+
+/*
+            mennyisegListFast.add(ar);
+            termekListFast.add(termek);
+            markaListFast.add(marka);
+*/
+            mergedListFast.add(marka + "\n" + termek + "\n" + ar + "db");
+
+
+
+  //        }
+
+        //Toast toast = Toast.makeText(getApplicationContext(),marka+","+termek+","+ar, Toast.LENGTH_LONG);
+        //toast.setGravity(Gravity.CENTER, 0, 0);
+        //toast.show();
+
+        //ok vibrate
+        Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        v.vibrate(100);
+
+        Snackbar.make(mGraphicOverlay,barcode3 +" - " + ar + "db\n" + marka + " - " + termek,
+                Snackbar.LENGTH_INDEFINITE)
+                .show();
+
+/*
+        //ArrayList-ekből Array-ek:
+        barcodeArrayFast = barcodeListFast.toArray(new String[barcodeListFast.size()]);
+        mennyisegArrayFast = mennyisegListFast.toArray(new String[mennyisegListFast.size()]);
+        termekArrayFast = termekListFast.toArray(new String[termekListFast.size()]);
+        markaArrayFast = markaListFast.toArray(new String[markaListFast.size()]);
+        mergedArrayFast = mergedListFast.toArray(new String[mergedListFast.size()]);
+
+
+        Intent intent2 = new Intent();
+        intent2.putExtra("barcodeExtraFast", barcode3);
+        intent2.putExtra("barcodeExtraFast",barcodeArrayFast);
+        intent2.putExtra("dbExtraFast",mennyisegArrayFast);
+        intent2.putExtra("markaExtraFast",markaArrayFast);
+        intent2.putExtra("termekExtraFast",termekArrayFast);
+        intent2.putExtra("mergedExtraFast",mergedArrayFast);
+
+        setResult(CommonStatusCodes.SUCCESS, intent);
+        finish();
+
+        Log.w(TAG, barcode3);
+        Intent data = new Intent();
+        data.putExtra(BarcodeObject, barcode3);
+        setResult(CommonStatusCodes.SUCCESS, data);
+        finish();
+*/
+    }
+
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -398,7 +560,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
 
 
 
-
+/*
     private boolean onTap(float rawX, float rawY) {
         //TODO: use the tap position to select the barcode.
         BarcodeGraphic graphic = mGraphicOverlay.getFirstGraphic();
@@ -420,6 +582,33 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         }
         return barcode != null;
     }
+*/
+    private boolean onTap(float rawX, float rawY) {
+
+        if (barcode3 != null) {
+            Log.w(TAG, barcode3);
+            barcodeListFast.add(barcode3);
+            Intent data = new Intent();
+            data.putExtra(BarcodeObject, barcode3);
+            data.putExtra(BarcodeObject2, barcodeListFast);
+
+            setResult(CommonStatusCodes.SUCCESS, data);
+            finish();
+
+        /* nem kell, elég lesz a vonalkódokat átadni tömbben valahogy...
+        Intent intent2 = new Intent();
+        intent2.putExtra("barcodeExtraFast", barcode3);
+        intent2.putExtra("barcodeExtraFast",barcodeArrayFast);
+        intent2.putExtra("dbExtraFast",mennyisegArrayFast);
+        intent2.putExtra("markaExtraFast",markaArrayFast);
+        intent2.putExtra("termekExtraFast",termekArrayFast);
+        intent2.putExtra("mergedExtraFast",mergedArrayFast);
+        */
+        }
+        return barcode3 != null;
+    }
+
+
 
     private class CaptureGestureListener extends GestureDetector.SimpleOnGestureListener {
 

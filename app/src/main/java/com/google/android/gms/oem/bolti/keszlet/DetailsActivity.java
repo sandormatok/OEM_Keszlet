@@ -33,7 +33,18 @@ public class DetailsActivity extends AppCompatActivity {
 
         Intent intent  = getIntent();
         Bundle extras = intent.getExtras();
+/*
+intent.putExtra("boltnevExtra",boltnev);
+                intent.putExtra("boltnev2Extra",boltnev2);
+                intent.putExtra("barcodeExtra",barcodeArray);
+                intent.putExtra("dbExtra",mennyisegArray);
+                intent.putExtra("markaExtra",markaArray);
+                intent.putExtra("termekExtra",termekArray);
 
+
+
+
+ */
         String item = extras.getString("itemExtra");
         int position = extras.getInt("positionExtra");
         String[] barcodeArray = extras.getStringArray("barcodeExtra");

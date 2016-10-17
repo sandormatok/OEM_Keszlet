@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final String TAG = "BarcodeMain";
 
     String url, boltnev2;
-    String boltnev, teruletnev = "Raktár";
+    public String boltnev, teruletnev = "Raktár";
 
     String deviceID, itemViewList;
     Integer itemPosition;
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String m_Text,m_Text2 = "";
     private String manualInput = "NO";
 
-    //Terület választó Spinner
+8    //Terület választó Spinner
     String teruletvalaszto[] = { "Raktár", "Csata Edit", "Csata Mária", "Kacsó Évi", "Sándor Zsuzsi", "Süle Ildikó", "Tamás Ildikó", "Zilahi Anita", "Összes üzlet" };
 
     //Boltcsoportok Spinner2
@@ -109,7 +109,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> mennyisegList = new ArrayList<String>();
     ArrayList<String> mergedList = new ArrayList<String>();
 
+    ArrayList<String> barcodeListExtra = new ArrayList<String>();
+
     String barcodeArray[];
+    String barcodeExtraArray[];
     String mennyisegArray[];
     String markaArray[];
     String termekArray[];
@@ -348,6 +351,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
                 intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
                 intent.putExtra(BarcodeCaptureActivity.FastMode, fastMode.isChecked());
+                intent.putExtra("boltnevExtra",boltnev);
+                intent.putExtra("boltnev2Extra",boltnev2);
                 startActivityForResult(intent, RC_BARCODE_CAPTURE);
             }
 
@@ -446,17 +451,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
                     String barcode3 = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
-                    //Barcode barcode2 = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
-                    //vonalkodTextView.setText(barcode2.displayValue);
+                    barcodeListExtra = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject2);
 
+                    //ArrayList-ekből Array-ek: - KIAKAD!
+                    //barcodeExtraArray = barcodeListExtra.toArray(new String[barcodeListExtra.size()]);
+
+                    /*
+                    barcodeExtraArray = barcodeListExtra.toArray(new String[barcodeListExtra.size()]);
+
+                    for (String s: barcodeExtraArray) {
+                        barcode3 = s;
+                        getData();
+                        //System.out.println(s);
+                    }
+                    */
 
                     getData();
+
+                    //nem kell, inkább csak a vonalkódot veszem át és itt lefuttatom valami módosított getdata-val őket...
+                    //Intent intent2  = getIntent();
+                    //Bundle extras = intent2.getExtras();
+                    //String[] barcodeExtraFast = extras.getStringArray("barcodeExtraFast");
+                    //String[] dbExtraFast = extras.getStringArray("mennyisegArrayFast");
+                    //String[] markaExtraFast = extras.getStringArray("markaArrayFast");
+                    //String[] termekExtraFast = extras.getStringArray("termekArrayFast");
+                    //String[] mergedExtraFast = extras.getStringArray("mergedArrayFast");
+                    //Toast toast = Toast.makeText(getApplicationContext(),markaExtraFast[0]+"\n"+termekExtraFast[0], Toast.LENGTH_LONG);
+                    //toast.setGravity(Gravity.CENTER, 0, 0);
+                    //toast.show();
+
                     } else {
-                    //no barcode error vibrate
-                    //Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                    //long[] pattern = {0, 50, 100, 50, 100, 50, 100, 50};
-                    //v.vibrate(pattern, -1);
-                    messageTextView.setText(R.string.barcode_failure);
+                 messageTextView.setText(R.string.barcode_failure);
                     Log.d(TAG, "No barcode captured, intent data is null");
                 }
             } else {
@@ -581,7 +606,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //ArrayList-ekből Array-ek:
         barcodeArray = barcodeList.toArray(new String[barcodeList.size()]);
-        mennyisegArray = mennyisegList.toArray(new String[mennyisegList.size()]);
+         mennyisegArray = mennyisegList.toArray(new String[mennyisegList.size()]);
         termekArray = termekList.toArray(new String[termekList.size()]);
         markaArray = markaList.toArray(new String[markaList.size()]);
         mergedArray = mergedList.toArray(new String[mergedList.size()]);
@@ -599,12 +624,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                     long id) {
                 String item = ((TextView)view).getText().toString();
                 Intent intent = new Intent(view.getContext(),DetailsActivity.class);
-/*
-                String ar2 = mennyisegList.get(position-1);
-                String marka2 = markaList.get(position-1);
-                String termek2 = termekList.get(position-1);
-                String barcode2 = barcodeList.get(position-1);
-*/
 
                 intent.putExtra("positionExtra",position);
                 intent.putExtra("itemExtra",item);
