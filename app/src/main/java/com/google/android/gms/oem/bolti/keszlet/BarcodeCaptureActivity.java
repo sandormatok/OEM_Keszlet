@@ -301,7 +301,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
             }
         });
 
-
         if (!barcodeDetector.isOperational()) {
             // Note: The first time that an app using the barcode or face API is installed on a
             // device, GMS will download a native libraries to the device in order to do detection.
@@ -323,8 +322,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 Toast.makeText(this, R.string.low_storage_error, Toast.LENGTH_LONG).show();
                 Log.w(TAG, getString(R.string.low_storage_error));
             }
-
-
         }
 
         // Creates and starts the camera.  Note that this uses a higher resolution in comparison
@@ -344,8 +341,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         mCameraSource = builder
                 .setFlashMode(useFlash ? Camera.Parameters.FLASH_MODE_TORCH : null)
                 .build();
-
-
     }
 
     /**

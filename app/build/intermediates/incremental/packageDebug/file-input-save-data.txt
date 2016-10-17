@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Oct 17 17:36:03 CEST 2016
+#Mon Oct 17 18:29:05 CEST 2016
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png
 14.set=ANDROID_RESOURCE
