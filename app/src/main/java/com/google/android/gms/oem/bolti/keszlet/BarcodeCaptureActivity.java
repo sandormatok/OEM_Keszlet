@@ -112,8 +112,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
 
     public static Barcode barcode = null;
     public static String barcode3;
-
-    String barcodeOld;
+    public static String barcodeOld;
 
     /**
      * Initializes the UI and creates the detector pipeline.
@@ -129,6 +128,10 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         // read parameters from the intent used to launch the activity.
         boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
         boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
+
+        boolean fastMode = getIntent().getBooleanExtra(FastMode, false);
+
+
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -237,6 +240,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
             @Override
             public void receiveDetections(Detector.Detections<Barcode> detections) {
                 final SparseArray<Barcode> barcodes = detections.getDetectedItems();
+                boolean fastMode = getIntent().getBooleanExtra(FastMode, false);
                 //MediaPlayer mp = MediaPlayer.create(this, R.raw.sound);
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                 if (barcodes.size() != 0) {
@@ -244,14 +248,17 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                     barcode3 = barcodes.valueAt(0).displayValue;
                     Log.w(TAG, barcode3);
 
-                    if (!barcode3.equals(barcodeOld) && !barcodeListFast.contains(barcode3)) {
-                        barcodeListFast.add(barcode3);
-                        getDataFast();
+                    if (!barcode3.equals(barcodeOld)) {
+                        if (!barcodeListFast.contains(barcode3)) {
+                            barcodeListFast.add(barcode3);
+                        }
 
+                        barcodeOld = barcodes.valueAt(0).displayValue;
+
+                        getDataFast();
                         //ok vibrate
                         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                         v.vibrate(100);
-
                     } else {
                         //Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                         //long[] pattern = {0, 50, 50, 50};

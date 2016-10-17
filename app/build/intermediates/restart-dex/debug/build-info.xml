@@ -5,40 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="95278177702127"
-    token="-2373564206881153818"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="355156590179248"
+    token="-8223279377837205565"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="229" />
+        duration="705" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1355" />
     <task
         name="instant-run-transform"
-        duration="49" />
+        duration="143" />
     <task
         name="verifier"
-        duration="0" />
+        duration="31" />
 
     <artifact
-        location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-        type="DEX" />
+        location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="89301469237373"
+        timestamp="355038899429151"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="95278177702127"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="355156590179248"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
+            location="C:\Users\san\AndroidStudioProjects\OEM_Keszlet\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

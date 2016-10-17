@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String m_Text,m_Text2 = "";
     private String manualInput = "NO";
 
-8    //Terület választó Spinner
+    //Terület választó Spinner
     String teruletvalaszto[] = { "Raktár", "Csata Edit", "Csata Mária", "Kacsó Évi", "Sándor Zsuzsi", "Süle Ildikó", "Tamás Ildikó", "Zilahi Anita", "Összes üzlet" };
 
     //Boltcsoportok Spinner2
@@ -340,7 +340,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId() == R.id.read_barcode) {
             // launch barcode activity.
             if(fastMode.isChecked()){
-                Intent intent = new Intent(this, BarcodeCaptureActivityFast.class);
+                Intent intent = new Intent(this, BarcodeCaptureActivity.class);
                 intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
                 intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
                 intent.putExtra(BarcodeCaptureActivity.FastMode, fastMode.isChecked());
