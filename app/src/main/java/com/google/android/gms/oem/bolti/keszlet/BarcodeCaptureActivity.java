@@ -112,7 +112,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
 
     public static Barcode barcode = null;
     public static String barcode3;
-    public static String barcodeOld;
+    public static String barcodeOld = "";
 
     /**
      * Initializes the UI and creates the detector pipeline.
@@ -129,10 +129,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
         boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
 
-        boolean fastMode = getIntent().getBooleanExtra(FastMode, false);
-
-
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Check for the camera permission before accessing the camera.  If the
@@ -147,13 +143,10 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-
-
        /* Snackbar.make(mGraphicOverlay, "Érintsd meg a vonalkódot a kiválasztáshoz,\"\\n\" Két ujjal pedig kicsinyíthetsz/nagyíthatsz!",
                 Snackbar.LENGTH_LONG)
                 .show();
 */
-
     }
 
     //ActionBar Back ne nullázza az activity-t!!
@@ -241,38 +234,70 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
             public void receiveDetections(Detector.Detections<Barcode> detections) {
                 final SparseArray<Barcode> barcodes = detections.getDetectedItems();
                 boolean fastMode = getIntent().getBooleanExtra(FastMode, false);
-                //MediaPlayer mp = MediaPlayer.create(this, R.raw.sound);
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-                if (barcodes.size() != 0) {
-                    //  mp.start();
-                    barcode3 = barcodes.valueAt(0).displayValue;
-                    Log.w(TAG, barcode3);
 
-                    if (!barcode3.equals(barcodeOld)) {
+                if (fastMode) {
+
+                    if (barcodes.size() != 0) {
+
+                        //ok vibrate
+                        Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                        v.vibrate(100);
+
+                        //  mp.start();
+                        barcode3 = barcodes.valueAt(0).displayValue;
+                        Log.w(TAG, barcode3);
+                        Intent data = new Intent();
+                        data.putExtra(BarcodeObject, barcode3);
+                        setResult(CommonStatusCodes.SUCCESS, data);
+                        finish();
+                    }
+                } else {
+                    if (barcodes.size() != 0) {
+                        barcode3 = barcodes.valueAt(0).displayValue;
+                        Log.w(TAG, barcode3);
+                        if (!barcode3.equals(barcodeOld)) {
+
+                            if (!barcodeListFast.contains(barcode3)) {
+                                barcodeListFast.add(barcode3);
+                            }
+                            barcodeOld = barcodes.valueAt(0).displayValue;
+                            getDataFast();
+                            //ok vibrate
+                            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                            v.vibrate(100);
+
+                        }
+
+                        barcodeOld = barcode3;
+
+
+                    }
+                }
+
+                    /*
+                    if (barcodes.size() != 0) {
+                        barcode3 = barcodes.valueAt(0).displayValue;
+                        Log.w(TAG, barcode3);
+                        if (!barcode3.equals(barcodeOld)) {
+
                         if (!barcodeListFast.contains(barcode3)) {
                             barcodeListFast.add(barcode3);
                         }
-
                         barcodeOld = barcodes.valueAt(0).displayValue;
-
                         getDataFast();
                         //ok vibrate
                         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                         v.vibrate(100);
-                    } else {
-                        //Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                        //long[] pattern = {0, 50, 50, 50};
-                        //v.vibrate(pattern, -1);
 
-                        Toast toast = Toast.makeText(getApplicationContext(), "MÁR SZEREPEL A LISTÁN!", Toast.LENGTH_SHORT);
-                        toast.setGravity(Gravity.CENTER, 0, 0);
-                        toast.show();
+                        }
+
+                        barcodeOld = barcode3;
+
+
                     }
+                    */
 
-                    barcodeOld = barcode3;
-
-
-                }
             }
         });
 
@@ -394,22 +419,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         }
 
 
-    //    if (!barcodeListFast.contains(barcode3)) {
-
-/*
-            mennyisegListFast.add(ar);
-            termekListFast.add(termek);
-            markaListFast.add(marka);
-*/
             mergedListFast.add(marka + "\n" + termek + "\n" + ar + "db");
-
-
-
-  //        }
-
-        //Toast toast = Toast.makeText(getApplicationContext(),marka+","+termek+","+ar, Toast.LENGTH_LONG);
-        //toast.setGravity(Gravity.CENTER, 0, 0);
-        //toast.show();
 
         //ok vibrate
         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
@@ -419,32 +429,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 Snackbar.LENGTH_INDEFINITE)
                 .show();
 
-/*
-        //ArrayList-ekből Array-ek:
-        barcodeArrayFast = barcodeListFast.toArray(new String[barcodeListFast.size()]);
-        mennyisegArrayFast = mennyisegListFast.toArray(new String[mennyisegListFast.size()]);
-        termekArrayFast = termekListFast.toArray(new String[termekListFast.size()]);
-        markaArrayFast = markaListFast.toArray(new String[markaListFast.size()]);
-        mergedArrayFast = mergedListFast.toArray(new String[mergedListFast.size()]);
 
-
-        Intent intent2 = new Intent();
-        intent2.putExtra("barcodeExtraFast", barcode3);
-        intent2.putExtra("barcodeExtraFast",barcodeArrayFast);
-        intent2.putExtra("dbExtraFast",mennyisegArrayFast);
-        intent2.putExtra("markaExtraFast",markaArrayFast);
-        intent2.putExtra("termekExtraFast",termekArrayFast);
-        intent2.putExtra("mergedExtraFast",mergedArrayFast);
-
-        setResult(CommonStatusCodes.SUCCESS, intent);
-        finish();
-
-        Log.w(TAG, barcode3);
-        Intent data = new Intent();
-        data.putExtra(BarcodeObject, barcode3);
-        setResult(CommonStatusCodes.SUCCESS, data);
-        finish();
-*/
     }
 
 

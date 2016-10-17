@@ -339,14 +339,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //VONALKÓD OLVASÓ MEGHÍVASA
         if (v.getId() == R.id.read_barcode) {
             // launch barcode activity.
-            if(fastMode.isChecked()){
-                Intent intent = new Intent(this, BarcodeCaptureActivity.class);
-                intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
-                intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
-                intent.putExtra(BarcodeCaptureActivity.FastMode, fastMode.isChecked());
-                startActivityForResult(intent, RC_BARCODE_CAPTURE);
-            }
-            else {
+
                 Intent intent = new Intent(this, BarcodeCaptureActivity.class);
                 intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
                 intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
@@ -354,11 +347,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra("boltnevExtra",boltnev);
                 intent.putExtra("boltnev2Extra",boltnev2);
                 startActivityForResult(intent, RC_BARCODE_CAPTURE);
-            }
-
-
-
-
 
         }
         //VONALKOD BEÍRÁSA KÉZZEL
