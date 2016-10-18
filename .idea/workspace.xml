@@ -17,49 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b17289-3bcc-43e9-a9d6-657a01d6907f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$CaptureGestureListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$CaptureGestureListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$ScaleListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$CaptureGestureListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$CaptureGestureListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$ScaleListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/instant-run.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_ic_googleplayservices.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$CaptureGestureListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$CaptureGestureListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity$ScaleListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/ui/camera/CameraSourcePreview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/ui/camera/CameraSourcePreview.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/ui/camera/GraphicOverlay.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/oem/bolti/keszlet/ui/camera/GraphicOverlay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,17 +66,17 @@
       <file leaf-file-name="BarcodeCaptureActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+            <state relative-caret-position="115">
+              <caret line="238" column="18" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
               <folding>
                 <element signature="method#onOptionsItemSelected#0;class#BarcodeCaptureActivity#0" expanded="false" />
                 <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
                 <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
                 <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-                <element signature="e#15113#15331#0" expanded="true" />
-                <element signature="e#15330#15331#0" expanded="true" />
-                <element signature="e#15349#15644#0" expanded="true" />
-                <element signature="e#15643#15644#0" expanded="true" />
+                <element signature="e#15132#15350#0" expanded="true" />
+                <element signature="e#15349#15350#0" expanded="true" />
+                <element signature="e#15368#15663#0" expanded="true" />
+                <element signature="e#15662#15663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +103,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="testing-grey-work" />
       </map>
     </option>
     <push-targets>
@@ -2379,7 +2338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476720610452</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="OEM_Készlet &#10;&#10;ver: v1.000003&#10;- megy a fastmode&#10;&#10;changelog:&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- mennyiség javítás&#10;- listview vezérlők&#10;&#10;&#10;">
+      <created>1476722945440</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1476722945441</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2393,9 +2359,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.50611246" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328341" sideWeight="0.5079462" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.49388754" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328341" sideWeight="0.49511003" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328341" sideWeight="0.49205378" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2488,7 +2454,8 @@
     <MESSAGE value="OEM_Készlet &#10;&#10;ver: v1.000002&#10;&#10;changelog:&#10;- tübb vonalkód mód Activity - még nem megy&#10;- termékinformációk ok&#10;- rezgés, ha ismeretlen a vonalkód&#10;- rezgés, ha duplán akar valamit felvinni&#10;-- (rendelésnél inkább kérdezze meg, hogy összeadja-e az előzőekkel és írja ki a rendelt mennyiséget)&#10;&#10;még hátra van:&#10;- ListView formázása, törlés és módosítás gomb&#10;- Post request (mennyiség)&#10;- gyorsmód&#10;- több vonalkód mód" />
     <MESSAGE value="OEM_Készlet &#10;&#10;ver: v1.000002&#10;&#10;changelog:&#10;- több vonalkód (switch-el lesz) megy, de még nem adja jól vissza a tömböket &#10;-- a sima vonalkód olvasót írtam át, így az most nincs! &#10;- termékinformációk ok&#10;- rezgés, ha ismeretlen a vonalkód&#10;- rezgés, ha duplán akar valamit felvinni&#10;-- (rendelésnél inkább kérdezze meg, hogy összeadja-e az előzőekkel és írja ki a rendelt mennyiséget)&#10;&#10;még hátra van:&#10;- ListView formázása, törlés és módosítás gomb&#10;- Post request (mennyiség)&#10;- gyorsmód&#10;- több vonalkód mód" />
     <MESSAGE value="OEM_Készlet &#10;&#10;ver: v1.000003&#10;&#10;changelog:&#10;- megy a fastmode&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- javítás&#10;- listview vezérlők&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="OEM_Készlet &#10;&#10;ver: v1.000003&#10;&#10;changelog:&#10;- megy a fastmode&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- javítás&#10;- listview vezérlők&#10;" />
+    <MESSAGE value="OEM_Készlet &#10;&#10;ver: v1.000003&#10;- megy a fastmode&#10;&#10;changelog:&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- mennyiség javítás&#10;- listview vezérlők&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="OEM_Készlet &#10;&#10;ver: v1.000003&#10;- megy a fastmode&#10;&#10;changelog:&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- mennyiség javítás&#10;- listview vezérlők&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2573,10 +2540,10 @@
             <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-            <element signature="e#15113#15331#0" expanded="true" />
-            <element signature="e#15330#15331#0" expanded="true" />
-            <element signature="e#15349#15644#0" expanded="true" />
-            <element signature="e#15643#15644#0" expanded="true" />
+            <element signature="e#15132#15350#0" expanded="true" />
+            <element signature="e#15349#15350#0" expanded="true" />
+            <element signature="e#15368#15663#0" expanded="true" />
+            <element signature="e#15662#15663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2679,10 +2646,10 @@
             <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-            <element signature="e#15113#15331#0" expanded="true" />
-            <element signature="e#15330#15331#0" expanded="true" />
-            <element signature="e#15349#15644#0" expanded="true" />
-            <element signature="e#15643#15644#0" expanded="true" />
+            <element signature="e#15132#15350#0" expanded="true" />
+            <element signature="e#15349#15350#0" expanded="true" />
+            <element signature="e#15368#15663#0" expanded="true" />
+            <element signature="e#15662#15663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2969,17 +2936,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="238" column="18" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
           <folding>
             <element signature="method#onOptionsItemSelected#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-            <element signature="e#15113#15331#0" expanded="true" />
-            <element signature="e#15330#15331#0" expanded="true" />
-            <element signature="e#15349#15644#0" expanded="true" />
-            <element signature="e#15643#15644#0" expanded="true" />
+            <element signature="e#15132#15350#0" expanded="true" />
+            <element signature="e#15349#15350#0" expanded="true" />
+            <element signature="e#15368#15663#0" expanded="true" />
+            <element signature="e#15662#15663#0" expanded="true" />
           </folding>
         </state>
       </provider>

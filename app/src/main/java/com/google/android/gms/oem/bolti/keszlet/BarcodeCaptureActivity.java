@@ -236,6 +236,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 boolean fastMode = getIntent().getBooleanExtra(FastMode, false);
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+                //
                 if (fastMode) {
 
                     if (barcodes.size() != 0) {
