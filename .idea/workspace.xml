@@ -16,7 +16,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/src/main/res/layout-v17/activity_main.xml" line="135" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b17289-3bcc-43e9-a9d6-657a01d6907f" name="Default" comment="">
+    <list default="true" id="e8b17289-3bcc-43e9-a9d6-657a01d6907f" name="Default" comment="OEM_Készlet &#10;&#10;ver: v1.000003&#10;- megy a fastmode&#10;&#10;changelog:&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- mennyiség javítás&#10;- listview vezérlők&#10;&#10;&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java" />
     </list>
@@ -66,17 +66,17 @@
       <file leaf-file-name="BarcodeCaptureActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="238" column="18" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+            <state relative-caret-position="183">
+              <caret line="151" column="40" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
               <folding>
                 <element signature="method#onOptionsItemSelected#0;class#BarcodeCaptureActivity#0" expanded="false" />
                 <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
                 <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
                 <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-                <element signature="e#15132#15350#0" expanded="true" />
-                <element signature="e#15349#15350#0" expanded="true" />
-                <element signature="e#15368#15663#0" expanded="true" />
-                <element signature="e#15662#15663#0" expanded="true" />
+                <element signature="e#15147#15365#0" expanded="true" />
+                <element signature="e#15364#15365#0" expanded="true" />
+                <element signature="e#15383#15678#0" expanded="true" />
+                <element signature="e#15677#15678#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +103,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testing-grey-work" />
+        <entry key="$PROJECT_DIR$" value="keszlet-alpha" />
       </map>
     </option>
     <push-targets>
@@ -1821,7 +1821,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="1669" />
     <option name="y" value="-11" />
     <option name="width" value="1702" />
     <option name="height" value="1032" />
@@ -2345,11 +2345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476722945441</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="OEM_Készlet &#10;&#10;ver: v1.000003&#10;- megy a fastmode&#10;&#10;changelog:&#10;- megy a sima mode is&#10;- lista frissül&#10;&#10;Hátravan:&#10;- mennyiség javítás&#10;- listview vezérlők&#10;&#10;&#10;">
+      <created>1476772324099</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1476772324099</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1702" height="1032" extended-state="6" />
+    <frame x="1669" y="-11" width="1702" height="1032" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2359,7 +2366,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328341" sideWeight="0.5079462" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.5079462" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.49388754" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328341" sideWeight="0.49205378" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2540,10 +2547,10 @@
             <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-            <element signature="e#15132#15350#0" expanded="true" />
-            <element signature="e#15349#15350#0" expanded="true" />
-            <element signature="e#15368#15663#0" expanded="true" />
-            <element signature="e#15662#15663#0" expanded="true" />
+            <element signature="e#15147#15365#0" expanded="true" />
+            <element signature="e#15364#15365#0" expanded="true" />
+            <element signature="e#15383#15678#0" expanded="true" />
+            <element signature="e#15677#15678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2646,10 +2653,10 @@
             <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-            <element signature="e#15132#15350#0" expanded="true" />
-            <element signature="e#15349#15350#0" expanded="true" />
-            <element signature="e#15368#15663#0" expanded="true" />
-            <element signature="e#15662#15663#0" expanded="true" />
+            <element signature="e#15147#15365#0" expanded="true" />
+            <element signature="e#15364#15365#0" expanded="true" />
+            <element signature="e#15383#15678#0" expanded="true" />
+            <element signature="e#15677#15678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2936,17 +2943,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/oem/bolti/keszlet/BarcodeCaptureActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="238" column="18" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+        <state relative-caret-position="183">
+          <caret line="151" column="40" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
           <folding>
             <element signature="method#onOptionsItemSelected#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="docComment;method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#BarcodeCaptureActivity#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#BarcodeCaptureActivity#0" expanded="false" />
-            <element signature="e#15132#15350#0" expanded="true" />
-            <element signature="e#15349#15350#0" expanded="true" />
-            <element signature="e#15368#15663#0" expanded="true" />
-            <element signature="e#15662#15663#0" expanded="true" />
+            <element signature="e#15147#15365#0" expanded="true" />
+            <element signature="e#15364#15365#0" expanded="true" />
+            <element signature="e#15383#15678#0" expanded="true" />
+            <element signature="e#15677#15678#0" expanded="true" />
           </folding>
         </state>
       </provider>

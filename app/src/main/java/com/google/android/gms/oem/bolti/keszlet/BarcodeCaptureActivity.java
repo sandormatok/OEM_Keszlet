@@ -236,11 +236,9 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 boolean fastMode = getIntent().getBooleanExtra(FastMode, false);
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-                //
+                //fastmode kapcsoló
                 if (fastMode) {
-
                     if (barcodes.size() != 0) {
-
                         //ok vibrate
                         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                         v.vibrate(100);
