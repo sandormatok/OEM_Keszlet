@@ -16,12 +16,12 @@
         "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multi_item_textview2.xml",
         "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\src\\main\\res\\layout\\multi_item_textview2.xml"
+    },
+    {
+        "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\san\\AndroidStudioProjects\\OEM_Keszlet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
