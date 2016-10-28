@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.3"
 
     defaultConfig {
-        applicationId "com.google.android.gms.oem.raktari.keszlet"
+        applicationId "com.san.studios.android.oem.bolti.rendelo"
         minSdkVersion 11
         targetSdkVersion 24
         versionCode 1
@@ -25,7 +25,7 @@ dependencies {
     compile 'com.android.support:support-v4:24.2.1'
     compile 'com.android.support:design:24.2.1'
 
-    compile 'com.google.android.gms:play-services-vision:9.6.1'
+    compile 'com.google.android.gms:play-services-vision:9.8.0'
 
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
 }
@@ -33,3 +33,5 @@ dependencies {
 /*android {
     useLibrary 'org.apache.http.legacy'
 }*/
+
+apply plugin: 'com.google.gms.google-services'
