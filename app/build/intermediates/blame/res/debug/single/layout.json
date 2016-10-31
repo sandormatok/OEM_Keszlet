@@ -88,12 +88,12 @@
         "source": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/home/san/AndroidStudioProjects/oem_keszlet/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
