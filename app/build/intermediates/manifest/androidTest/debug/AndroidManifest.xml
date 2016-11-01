@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.gms.oem.raktari.keszlet.test">
+    package="com.san.studios.android.oem.bolti.rendelo.test">
 
     <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="24" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.google.android.gms.oem.raktari.keszlet"
+                     android:targetPackage="com.san.studios.android.oem.bolti.rendelo"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.google.android.gms.oem.raktari.keszlet"/>
+                     android:label="Tests for com.san.studios.android.oem.bolti.rendelo"/>
 </manifest>
